@@ -1,0 +1,454 @@
+{
+  "pieces": [
+    {
+      "id": 1,
+      "artistName": "Ashton Bailey",
+      "artName": "Itachi of the sharingan",
+      "price": 5608484400,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 2,
+      "artistName": "Ashton Bailey",
+      "artName": "The combination of rivals",
+      "price": 7169848760,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 3,
+      "artistName": "Ashton Bailey",
+      "artName": "I heart Eren Jaeger",
+      "price": 6615189847,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 4,
+      "artistName": "Ashton Bailey",
+      "artName": "Save the Future",
+      "price": 3961594960,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 5,
+      "artistName": "Ashton Bailey",
+      "artName": "You can find love and it not find you",
+      "price": 853212711,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 6,
+      "artistName": "Zoë Palmer",
+      "artName": "We are the universe",
+      "price": 1579489445,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 7,
+      "artistName": "Zoë Palmer",
+      "artName": "Ghost in the shell",
+      "price": 2848343489,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 8,
+      "artistName": "Zoë Palmer",
+      "artName": "David's rose",
+      "price": 914006596,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 9,
+      "artistName": "Zoë Palmer",
+      "artName": "Emotion through eyes",
+      "price": 4731171405,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 10,
+      "artistName": "Zoë Palmer",
+      "artName": "The Stare",
+      "price": 4022755451,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 11,
+      "artistName": "Nanor",
+      "artName": "example",
+      "price": 7306085956,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 12,
+      "artistName": "Nanor",
+      "artName": "example",
+      "price": 7047210989,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 13,
+      "artistName": "Nanor",
+      "artName": "example",
+      "price": 7411914810,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 14,
+      "artistName": "Nanor",
+      "artName": "example",
+      "price": 6032631436,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 15,
+      "artistName": "Nanor",
+      "artName": "example",
+      "price": 550316620,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 16,
+      "artistName": "Maverick Holm",
+      "artName": "example",
+      "price": 6648193694,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 17,
+      "artistName": "Maverick Holm",
+      "artName": "example",
+      "price": 2179496516,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 18,
+      "artistName": "Maverick Holm",
+      "artName": "example",
+      "price": 7802817852,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 19,
+      "artistName": "Maverick Holm",
+      "artName": "example",
+      "price": 6480877085,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 20,
+      "artistName": "Maverick Holm",
+      "artName": "example",
+      "price": 6929698411,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 21,
+      "artistName": "Akira Ikuta",
+      "artName": "example",
+      "price": 7057308116,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 22,
+      "artistName": "Akira Ikuta",
+      "artName": "example",
+      "price": 942362656,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 23,
+      "artistName": "Akira Ikuta",
+      "artName": "example",
+      "price": 6375223800,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 24,
+      "artistName": "Akira Ikuta",
+      "artName": "example",
+      "price": 7947174328,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 25,
+      "artistName": "Akira Ikuta",
+      "artName": "example",
+      "price": 2864341223,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 26,
+      "artistName": "Cyrus Kabiru",
+      "artName": "example",
+      "price": 3530412931,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 27,
+      "artistName": "Cyrus Kabiru",
+      "artName": "example",
+      "price": 2606609011,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 28,
+      "artistName": "Cyrus Kabiru",
+      "artName": "example",
+      "price": 2541690569,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 29,
+      "artistName": "Cyrus Kabiru",
+      "artName": "example",
+      "price": 3823686970,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 30,
+      "artistName": "Cyrus Kabiru",
+      "artName": "example",
+      "price": 6082830209,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 31,
+      "artistName": "Edith Brown",
+      "artName": "example",
+      "price": 2031879212,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 32,
+      "artistName": "Edith Brown",
+      "artName": "example",
+      "price": 1338387158,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 33,
+      "artistName": "Edith Brown",
+      "artName": "example",
+      "price": 2359579119,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 34,
+      "artistName": "Edith Brown",
+      "artName": "example",
+      "price": 8867697209,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 35,
+      "artistName": "Edith Brown",
+      "artName": "example",
+      "price": 2977813118,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 36,
+      "artistName": "Maeve Powell",
+      "artName": "example",
+      "price": 5312798215,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 37,
+      "artistName": "Maeve Powell",
+      "artName": "example",
+      "price": 5091270221,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 38,
+      "artistName": "Maeve Powell",
+      "artName": "example",
+      "price": 8218223268,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 39,
+      "artistName": "Maeve Powell",
+      "artName": "example",
+      "price": 4148809265,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 40,
+      "artistName": "Maeve Powell",
+      "artName": "example",
+      "price": 5640688965,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 41,
+      "artistName": "Allistairr",
+      "artName": "example",
+      "price": 3162628217,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 42,
+      "artistName": "Allistairr",
+      "artName": "example",
+      "price": 8595721286,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 43,
+      "artistName": "Allistairr",
+      "artName": "example",
+      "price": 5420070656,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 44,
+      "artistName": "Allistairr",
+      "artName": "example",
+      "price": 3255999109,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 45,
+      "artistName": "Allistairr",
+      "artName": "example",
+      "price": 5357433455,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 46,
+      "artistName": "Luka Sin Clair",
+      "artName": "example",
+      "price": 1524713424,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 47,
+      "artistName": "Luka Sin Clair",
+      "artName": "example",
+      "price": 4521733442,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 48,
+      "artistName": "Luka Sin Clair",
+      "artName": "example",
+      "price": 3775465480,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 49,
+      "artistName": "Luka Sin Clair",
+      "artName": "example",
+      "price": 5154160529,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    },
+    {
+      "id": 50,
+      "artistName": "Luka Sin Clair",
+      "artName": "example",
+      "price": 877813123,
+      "imgURL": "asdsa",
+      "description": "asdsa",
+      "category": "asdsa"
+    }
+  ]
+}
