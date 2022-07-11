@@ -1,4 +1,111 @@
 {
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Jason Wandrag",
+      "email": "jason@gmail.com",
+      "password": "password",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "fullName": "Uzair Damonse",
+      "email": "uzair@gmail.com",
+      "password": "password",
+      "role": "admin"
+    },
+    {
+      "id": 3,
+      "fullName": "Ricardo Ronan Moses",
+      "email": "ricardo@gmail.com",
+      "password": "password",
+      "role": "admin"
+    },
+    {
+      "id": 4,
+      "fullName": "Fatima Galant",
+      "email": "fatima@gmail.com",
+      "password": "password",
+      "role": "admin"
+    },
+    {
+      "id": 5,
+      "fullName": "Joshua Steed",
+      "email": "joshua@gmail.com",
+      "password": "password",
+      "role": "admin"
+    },
+    {
+      "id": 6,
+      "fullName": "Aston Bailey",
+      "email": "ashton@gmail.com",
+      "password": "password",
+      "role": "artist"
+    },
+    {
+      "id": 7,
+      "fullName": "Zoe Palmer",
+      "email": "zoe@gmail.com",
+      "password": "password",
+      "role": "artist"
+    },
+    {
+      "id": 8,
+      "fullName": "Nanor",
+      "email": "nanor@gmail.com",
+      "password": "password",
+      "role": "artist"
+    },
+    {
+      "id": 9,
+      "fullName": "Attack on Canvas",
+      "email": "attack@gmail.com",
+      "password": "password",
+      "role": "artist"
+    },
+    {
+      "id": 10,
+      "fullName": "Allistarr",
+      "email": "@gmail.com",
+      "password": "password",
+      "role": "artist"
+    },
+    {
+      "id": 11,
+      "fullName": "Luka Sin Clair",
+      "email": "luka@gmail.com",
+      "password": "password",
+      "role": "artist"
+    },
+    {
+      "id": 12,
+      "fullName": "Akira Ikutu",
+      "email": "akira@gmail.com",
+      "password": "password",
+      "role": "artist"
+    },
+    {
+      "id": 13,
+      "fullName": "Cyrus Karibu",
+      "email": "cyrus@gmail.com",
+      "password": "password",
+      "role": "artist"
+    },
+    {
+      "id": 14,
+      "fullName": "Maeve Powell",
+      "email": "maeve@gmail.com",
+      "password": "password",
+      "role": "artist"
+    },
+    {
+      "id": 15,
+      "fullName": "Edith Brown",
+      "email": "edith@gmail.com",
+      "password": "password",
+      "role": "artist"
+    }
+  ],
   "pieces": [
     {
       "id": 1,
@@ -7,7 +114,7 @@
       "price": 5608484400,
       "imgURL": "https://i.postimg.cc/ct7ZqrBH/Globe-of-Thought",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Drawing"
     },
     {
       "id": 2,
@@ -16,7 +123,7 @@
       "price": 7169848760,
       "imgURL": "https://i.postimg.cc/F7mNyVhJ/Levi.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Drawing"
     },
     {
       "id": 3,
@@ -25,7 +132,7 @@
       "price": 6615189847,
       "imgURL": "https://i.postimg.cc/zVj50Hf2/Study-of-Hands.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Drawing"
     },
     {
       "id": 4,
@@ -34,7 +141,7 @@
       "price": 3961594960,
       "imgURL": "https://i.postimg.cc/nXSxt8Bv/Yellowing-Surroundings",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Painting"
     },
     {
       "id": 5,
@@ -43,7 +150,7 @@
       "price": 853212711,
       "imgURL": "https://i.postimg.cc/vZr6JGSG/The-Roads-of-Lana.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Drawing"
     },
     {
       "id": 6,
@@ -52,7 +159,7 @@
       "price": 1579489445,
       "imgURL": "https://i.postimg.cc/87d21j9Q/we-are-the-universe.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Painting"
     },
     {
       "id": 7,
@@ -61,7 +168,7 @@
       "price": 2848343489,
       "imgURL": "https://i.postimg.cc/xNJrYgDt/Ghost-in-the-Shell.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Painting"
     },
     {
       "id": 8,
@@ -70,7 +177,7 @@
       "price": 914006596,
       "imgURL": "https://i.postimg.cc/GHD05Mjp/David-s-Rose.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Drawing"
     },
     {
       "id": 9,
@@ -79,7 +186,7 @@
       "price": 4731171405,
       "imgURL": "https://i.postimg.cc/XXmSxMdh/Expressive-Eyes.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Painting"
     },
     {
       "id": 10,
@@ -88,7 +195,7 @@
       "price": 4022755451,
       "imgURL": "https://i.postimg.cc/XXp6wNGd/windowless-glare.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Drawing"
     },
     {
       "id": 11,
@@ -97,7 +204,7 @@
       "price": 7306085956,
       "imgURL": "https://i.postimg.cc/rd5pWvgX/adaptation-of-David-by-Michael-Angelo.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Drawing"
     },
     {
       "id": 12,
@@ -106,7 +213,7 @@
       "price": 7047210989,
       "imgURL": "https://i.postimg.cc/ftKTqm68/adaptation-of-The-Mona-Lisa-by-Leonardo-Da-Vinci.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Drawing"
     },
     {
       "id": 13,
@@ -115,7 +222,7 @@
       "price": 7411914810,
       "imgURL": "https://i.postimg.cc/18tRC8HH/Mind-and-Heart.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Drawing"
     },
     {
       "id": 14,
@@ -124,7 +231,7 @@
       "price": 6032631436,
       "imgURL": "https://i.postimg.cc/WdFzpDk4/Siege-of-Troy.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Drawing"
     },
     {
       "id": 15,
@@ -133,52 +240,52 @@
       "price": 550316620,
       "imgURL": "https://i.postimg.cc/18kt89Gr/Smoky-Darkness.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Drawing"
     },
     {
       "id": 16,
-      "artistName": "Maverick Holm",
-      "artName": "example",
+      "artistName": "Attack on Canvas",
+      "artName": "Beach of Harmony",
       "price": 6648193694,
-      "imgURL": "asdsa",
+      "imgURL": "https://i.postimg.cc/WhfBbtnB/Beach-of-Harmony.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Painting"
     },
     {
       "id": 17,
-      "artistName": "Maverick Holm",
-      "artName": "example",
+      "artistName": "Attack on Canvas",
+      "artName": "Happiness",
       "price": 2179496516,
-      "imgURL": "asdsa",
+      "imgURL": "https://i.postimg.cc/Vd6y8Xj9/Happiness.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Painting"
     },
     {
       "id": 18,
-      "artistName": "Maverick Holm",
-      "artName": "example",
+      "artistName": "Attack on Canvas",
+      "artName": "Inventions of Surprise",
       "price": 7802817852,
-      "imgURL": "asdsa",
+      "imgURL": "https://i.postimg.cc/bD8MFnyt/Inventions-of-Surprise.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Painting"
     },
     {
       "id": 19,
-      "artistName": "Maverick Holm",
-      "artName": "example",
+      "artistName": "Attack on Canvas",
+      "artName": "Turbulent Shelter",
       "price": 6480877085,
-      "imgURL": "asdsa",
+      "imgURL": "https://i.postimg.cc/CR39kt9J/Turbulent-Shelter.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Painting"
     },
     {
       "id": 20,
-      "artistName": "Maverick Holm",
-      "artName": "example",
+      "artistName": "Attack on Canvas",
+      "artName": "You are Perfect",
       "price": 6929698411,
-      "imgURL": "asdsa",
+      "imgURL": "https://i.postimg.cc/Z962cHSm/You-are-Perfect.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Painting"
     },
     {
       "id": 21,
@@ -187,7 +294,7 @@
       "price": 7057308116,
       "imgURL": "https://i.postimg.cc/rRW6YtZD/Belief.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Sculpture"
     },
     {
       "id": 22,
@@ -196,7 +303,7 @@
       "price": 942362656,
       "imgURL": "https://i.postimg.cc/t7VHgLR9/Creative-Romance.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Abstact"
     },
     {
       "id": 23,
@@ -205,7 +312,7 @@
       "price": 6375223800,
       "imgURL": "https://i.postimg.cc/sB2kCL0d/Delight-of-Infatuation.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Painting"
     },
     {
       "id": 24,
@@ -214,7 +321,7 @@
       "price": 7947174328,
       "imgURL": "https://i.postimg.cc/s1Wtz7KX/Depressions-of-Harmony.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Abstact"
     },
     {
       "id": 25,
@@ -223,7 +330,7 @@
       "price": 2864341223,
       "imgURL": "https://i.postimg.cc/XpfSfdyh/Lesson-of-Despair.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Painting"
     },
     {
       "id": 26,
@@ -232,16 +339,16 @@
       "price": 3530412931,
       "imgURL": "https://i.postimg.cc/5Hr1jJZS/Abstract-Division.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Painting"
     },
     {
       "id": 27,
       "artistName": "Cyrus Kabiru",
-      "artName": "Brilliant Direction",
+      "artName": "Delights of Authority",
       "price": 2606609011,
-      "imgURL": "https://i.postimg.cc/s1Wtz7KX/Brilliant-Direction.jpg",
+      "imgURL": "https://i.postimg.cc/qzdKvt2z/Delights-of-Authority.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Wildlife"
     },
     {
       "id": 28,
@@ -250,7 +357,7 @@
       "price": 2541690569,
       "imgURL": "https://i.postimg.cc/hJXWkwfz/Freedom-of-Forever.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Sculpture"
     },
     {
       "id": 29,
@@ -259,7 +366,7 @@
       "price": 3823686970,
       "imgURL": "https://i.postimg.cc/TpsZr0kT/Grounded-Practice.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Sculpture"
     },
     {
       "id": 30,
@@ -268,52 +375,52 @@
       "price": 6082830209,
       "imgURL": "https://i.postimg.cc/bdgP2Qcv/Stand-Out.jpg[",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Painting"
     },
     {
       "id": 31,
       "artistName": "Edith Brown",
-      "artName": "example",
+      "artName": "Divine Option",
       "price": 2031879212,
-      "imgURL": "asdsa",
+      "imgURL": "https://i.postimg.cc/xXpRYNSB/Divine-Option.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Painting"
     },
     {
       "id": 32,
       "artistName": "Edith Brown",
-      "artName": "example",
+      "artName": "Divisions of Surprise",
       "price": 1338387158,
-      "imgURL": "asdsa",
+      "imgURL": "https://i.postimg.cc/S2MVgS33/Divisions-of-Surprise.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Painting"
     },
     {
       "id": 33,
       "artistName": "Edith Brown",
-      "artName": "example",
+      "artName": "Delicate Sympathy",
       "price": 2359579119,
-      "imgURL": "asdsa",
+      "imgURL": "https://i.postimg.cc/JyhZC9Zx/Delicate-Sympathy.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Painting"
     },
     {
       "id": 34,
       "artistName": "Edith Brown",
-      "artName": "example",
+      "artName": "Recognition of Celebration",
       "price": 8867697209,
-      "imgURL": "asdsa",
+      "imgURL": "https://i.postimg.cc/D8g6jYpv/Recognition-of-Celebration.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Painting"
     },
     {
       "id": 35,
       "artistName": "Edith Brown",
-      "artName": "example",
+      "artName": "Submission-of-Significance",
       "price": 2977813118,
-      "imgURL": "asdsa",
+      "imgURL": "https://i.postimg.cc/VrPgJyH8/Submission-of-Significance.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Painting"
     },
     {
       "id": 36,
@@ -322,7 +429,7 @@
       "price": 5312798215,
       "imgURL": "https://i.postimg.cc/BLHGrMTs/Life-s-Rust.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Abstact"
     },
     {
       "id": 37,
@@ -331,16 +438,16 @@
       "price": 5091270221,
       "imgURL": "https://i.postimg.cc/cg2rm9sS/Bleeding-Rainbow.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Abstact"
     },
     {
       "id": 38,
       "artistName": "Maeve Powell",
-      "artName": "Bright Mess",
+      "artName": "Business of Surprise",
       "price": 8218223268,
-      "imgURL": "https://i.postimg.cc/nsMFP4Sc/Bright-Mess.jpg",
+      "imgURL": "https://i.postimg.cc/rz4WTG0B/Business-of-Surprise.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Wildlife"
     },
     {
       "id": 39,
@@ -349,7 +456,7 @@
       "price": 4148809265,
       "imgURL": "https://i.postimg.cc/v1y77m0z/Contemplating-Storm.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Abstact"
     },
     {
       "id": 40,
@@ -358,97 +465,97 @@
       "price": 5640688965,
       "imgURL": "https://i.postimg.cc/4KMfkYjv/Cut-of-Colour.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Abstact"
     },
     {
       "id": 41,
       "artistName": "Allistairr",
-      "artName": "example",
+      "artName": "Contemplating Morning",
       "price": 3162628217,
-      "imgURL": "asdsa",
+      "imgURL": "https://i.postimg.cc/568znPgP/Contemplating-Morning.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Sculpture"
     },
     {
       "id": 42,
       "artistName": "Allistairr",
-      "artName": "example",
+      "artName": "Dream of Psychology",
       "price": 8595721286,
-      "imgURL": "asdsa",
+      "imgURL": "https://i.postimg.cc/JHZsYnNy/Dream-of-Psychology.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Abstact"
     },
     {
       "id": 43,
       "artistName": "Allistairr",
-      "artName": "example",
+      "artName": "Dynamic Fall",
       "price": 5420070656,
-      "imgURL": "asdsa",
+      "imgURL": "https://i.postimg.cc/FYZLQ723/Dynamic-Fall.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Sculpture"
     },
     {
       "id": 44,
       "artistName": "Allistairr",
-      "artName": "example",
+      "artName": "Illustrious Accident",
       "price": 3255999109,
-      "imgURL": "asdsa",
+      "imgURL": "https://i.postimg.cc/dLckk2FG/Illustrious-Accident.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Abstact"
     },
     {
       "id": 45,
       "artistName": "Allistairr",
-      "artName": "example",
+      "artName": "Spring of Service",
       "price": 5357433455,
-      "imgURL": "asdsa",
+      "imgURL": "https://i.postimg.cc/4HsYMGBB/Spring-of-Service.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Sculpture"
     },
     {
       "id": 46,
       "artistName": "Luka Sin Clair",
-      "artName": "example",
+      "artName": "Directions of Solitude",
       "price": 1524713424,
-      "imgURL": "asdsa",
+      "imgURL": "https://i.postimg.cc/1gfPm3Wf/Directions-of-Solitude.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Abstact"
     },
     {
       "id": 47,
       "artistName": "Luka Sin Clair",
-      "artName": "example",
+      "artName": "Don't Let Go",
       "price": 4521733442,
-      "imgURL": "asdsa",
+      "imgURL": "https://i.postimg.cc/9rQc8bGd/Don-t-Let-Go.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Sculpture"
     },
     {
       "id": 48,
       "artistName": "Luka Sin Clair",
-      "artName": "example",
+      "artName": "Perpetual Drive",
       "price": 3775465480,
-      "imgURL": "asdsa",
+      "imgURL": "https://i.postimg.cc/FdS4SnXv/Perpetual-Drive.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Abstact"
     },
     {
       "id": 49,
       "artistName": "Luka Sin Clair",
-      "artName": "example",
+      "artName": "Tender Courage",
       "price": 5154160529,
-      "imgURL": "asdsa",
+      "imgURL": "https://i.postimg.cc/w13Tv2Mq/Tender-Courage.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Wildlife"
     },
     {
       "id": 50,
       "artistName": "Luka Sin Clair",
-      "artName": "example",
+      "artName": "Thrills of Childhood",
       "price": 877813123,
-      "imgURL": "asdsa",
+      "imgURL": "https://i.postimg.cc/F7VhGqds/Thrills-of-Childhood.jpg",
       "description": "asdsa",
-      "category": "asdsa"
+      "category": "Sculpture"
     }
   ]
 }
