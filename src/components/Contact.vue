@@ -50,7 +50,7 @@
               <li class="list-item">
                 <i class="fa fa-phone fa-2x"
                   ><span class="contact-text phone"
-                    ><a href="tel:1-212-555-5555" title="Give us a call"
+                    ><a href="tel:+21-666-6969" title="Give us a call"
                       >(+21) 666-6969</a
                     ></span
                   ></i
