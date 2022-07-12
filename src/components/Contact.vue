@@ -123,12 +123,12 @@
 //   components: { contactForm },
 // };
 </script>
-<style>
+<style scoped>
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url("https://fonts.googleapis.com/css2?family=Finlandica&family=Lato&family=Oswald:wght@300&display=swap");
 
 body {
-  background: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
 }
 .heading {
   color: white;
@@ -137,8 +137,8 @@ body {
   font-family: "Oswald", sans-serif;
 }
 form {
-  max-width: 420px;
-  margin: 50px auto;
+  /* max-width: 420px; */
+  /* margin: 50px auto; */
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -156,20 +156,20 @@ form {
   }
 }
 .container {
-  background-color: #22212171;
+  /* background-color: #ececec71;*/
   display: flex;
-  align-items: center;
+  /* align-items: center;
   align-content: center;
   justify-content: center;
-  width: fit-content;
-  margin: 5rem;
-  padding: 2rem;
+  width: fit-content; */
+  /* margin: 5rem;
+  padding: 2rem; */
 }
-iframe {
+/* iframe {
   filter: invert();
-}
+} */
 .feedback-input {
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: "Lato", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -186,7 +186,7 @@ iframe {
 }
 
 .feedback-input:focus {
-  border: 1px solid #4e4b4b;
+  border: 1px solid #3d3d3d;
 }
 
 textarea {
@@ -198,11 +198,11 @@ textarea {
 [type="submit"] {
   font-family: "Oswald", sans-serif;
   width: 50%;
-  background: #4e4b4b;
+  background: #000000;
   border-radius: 5px;
   border: 0;
   cursor: pointer;
-  color: #000;
+  color: rgb(255, 255, 255);
   font-size: 24px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -211,7 +211,7 @@ textarea {
   font-weight: 500;
 }
 [type="submit"]:hover {
-  background: #000;
+  background: rgb(168, 168, 168);
   color: white;
 }
 
@@ -224,13 +224,13 @@ textarea {
 
 .list-item {
   line-height: 4;
-  color: #aaa;
+  color: rgb(0, 0, 0);
 }
 
 .contact-text {
   font: 300 18px "Lato", sans-serif;
   letter-spacing: 1.9px;
-  color: #bbb;
+  color: rgb(0, 0, 0);
 }
 
 .place {
@@ -246,13 +246,13 @@ textarea {
 }
 
 .contact-text a {
-  color: #bbb;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   transition-duration: 0.2s;
 }
 
 .contact-text a:hover {
-  color: #fff;
+  color: rgb(97, 97, 97);
   text-decoration: none;
 }
 
@@ -299,7 +299,7 @@ textarea {
 }
 
 .social-media-list li:hover {
-  background-color: #fff;
+  background-color: rgb(196, 196, 196);
 }
 
 .social-media-list li:hover:after {
@@ -314,7 +314,7 @@ textarea {
 
 .copyright {
   font: 200 14px "Oswald", sans-serif;
-  color: #555;
+  color: rgb(56, 56, 56);
   letter-spacing: 1px;
   text-align: center;
 }

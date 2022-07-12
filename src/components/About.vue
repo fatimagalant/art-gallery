@@ -5,9 +5,17 @@
   </section>
 </template>
 <script></script>
-<style>
+<style scoped>
+#about {
+  background-image: url("../assets/about.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
 .heading {
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: 500px;
   font-size: 5rem;
   font-family: "Oswald", sans-serif;
