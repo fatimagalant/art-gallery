@@ -1,3 +1,12 @@
 <template>
-  <h1>Artists</h1>
+  <Artists />
 </template>
+<script>
+import Artists from "../components/Artists.vue";
+export default {
+  components: {
+    Artists,
+  },
+};
+</script>
+<style></style>

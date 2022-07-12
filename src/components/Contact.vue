@@ -137,8 +137,8 @@ body {
   font-family: "Oswald", sans-serif;
 }
 form {
-  /* max-width: 420px; */
-  /* margin: 50px auto; */
+  max-width: 420px;
+  margin: 50px auto;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -158,13 +158,14 @@ form {
 .container {
   /* background-color: #ececec71;*/
   display: flex;
-  /* align-items: center;
+  align-items: center;
   align-content: center;
   justify-content: center;
-  width: fit-content; */
-  /* margin: 5rem;
-  padding: 2rem; */
+  width: fit-content;
+  margin: 5rem;
+  padding: 2rem;
 }
+
 /* iframe {
   filter: invert();
 } */
@@ -344,15 +345,15 @@ iframe {
   #contact {
     display: flex;
     flex-direction: column !important;
-    padding-bottom: 2 rem !important;
+    /* padding-bottom: 2 rem !important; */
   }
 }
 @media screen and (max-width: 607px) {
   #container {
     display: flex;
     /* flex-direction: column !important; */
-    justify-content: center !important;
-    padding-right: 2 rem !important;
+    /* justify-content: center !important;
+    padding-right: 2 rem !important; */
   }
 }
 </style>

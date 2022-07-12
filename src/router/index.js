@@ -65,6 +65,21 @@ const routes = [
     name: "Contact",
     component: () => import("../views/Contact.vue"),
   },
+  {
+    path: "/artists",
+    name: "Artists",
+    component: () => import("../views/Artists.vue"),
+  },
+  {
+    path: "/featured",
+    name: "Featured",
+    component: () => import("../views/Featured.vue"),
+  },
+  {
+    path: "/gallery",
+    name: "Gallery",
+    component: () => import("../views/Gallery.vue"),
+  },
 ];
 
 const router = createRouter({

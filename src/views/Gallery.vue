@@ -1,11 +1,11 @@
 <template>
-  <Featured />
+  <Gallery />
 </template>
 <script>
-import Featured from "../components/Featured.vue";
+import Gallery from "../components/Gallery.vue";
 export default {
   components: {
-    Featured,
+    Gallery,
   },
 };
 </script>
