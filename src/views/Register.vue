@@ -188,8 +188,7 @@ table {
 .background {
   background: rgb(35, 37, 38);
   width: 100%;
-  height: 100vh;
-  padding-top: 8%;
+  height: 88.6vh;
 }
 #register {
   background: rgb(35, 37, 38);
@@ -203,7 +202,7 @@ table {
     url("../assets/register/bobross-canvas.jpg");
   background-size: cover;
   width: 940px;
-  height: 520px;
+  height: 620px;
   border-radius: 20px 20px;
   margin: 0 auto;
 }
