@@ -15,18 +15,7 @@ export default createStore({
     },
   },
   actions: {
-    getAllArt: async (context) => {
-      fetch("http://localhost:3000/pieces")
-        .then((res) => res.json())
-        .then((pieces) => context.commit("setPieces", pieces));
-    },
-    login: async(context, payload)=>{
-      const (email, password)=payload,
-
-      const response= await fetch{'http://localhost:3000/users'}
-
-      }
-    },
+    getAllArt: async (context) => {},
   },
   modules: {},
 });
