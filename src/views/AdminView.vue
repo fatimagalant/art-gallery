@@ -4,41 +4,21 @@
         <div class="container-md">
           <a class="navbar-brand fs-6" href="admin.html">Gallery</a>
           <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                aria-current="page"
-                href="index.html"
-                id="live-link"
-                >Open the Website</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-secondary" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="That's crazy!">
-  Need help?</a>
-            </li>
             <li class="nav-item dropdown">
+              
               <a
-                class="nav-link dropdown-toggle text-secondary"
+                class="nav-link text-secondary"
                 href="#"
                 id="navbarDarkDropdownMenuLink"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
+              <div class="d-flex align-items-center">
                 <img id="profile-pic" src="../assets/admin/user.png" alt="" />
-                <span class="mx-1"></span> Full Name
+                <span class="mx-1 username">Full Name</span> </div>
               </a>
-              <ul
-                class="dropdown-menu dropdown-menu-dark"
-                aria-labelledby="navbarDarkDropdownMenuLink"
-              >
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
+
             </li>
           </ul>
         </div>
@@ -340,7 +320,9 @@ border-radius: 10px 10px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.473);
 }
-
+.username{
+  color :rgb(255, 255, 255) !important;
+}
 #panel {
   background-color: rgb(37, 39, 40);
   width: 80%;
@@ -353,6 +335,7 @@ border-radius: 10px 10px;
   width: 30px !important;
   height: auto !important;
   font-size: 12px !important;
+  background: rgb(2, 106, 211) !important;
 }
 
 #pnl-sub {
@@ -380,7 +363,7 @@ border-radius: 10px 10px;
   width: fit-content;
   height: 40px;
   color: white !important;
-  background: #2e4de8 !important;
+  background: rgb(2, 106, 211) !important;
   font-weight: bolder;
   border-bottom-right-radius:5px ;
   border-top-right-radius: 5px;
@@ -396,7 +379,7 @@ input[type="search"]::placeholder {
     width: 120px;
   height: 40px;
   color: white;
-  background: #1DB954;
+  background: rgb(2, 106, 211);
   text-align: center;
   margin-left: 15px;
   border: none;
