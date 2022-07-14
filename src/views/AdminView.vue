@@ -384,10 +384,13 @@ input[type="search"]::placeholder {
   margin-left: 15px;
   border: none;
 }
-
-
+#btn-add:focus{
+  outline: none;
+  border: none;
+}
 #btn-add:active{
     box-shadow: 0 0 30px #000000;
+    outline: none;
 }
 
 
