@@ -1,30 +1,11 @@
 <template>
   <Artists />
-  <div class="card-display">
-    <PropertyCard
-      v-for="property in properties"
-      :key="property.id"
-      :property="property"
-    />
-    <!-- <router-link :to="{ name: 'PropertyDetails', params: { id: property.id } }"> -->
-    <h1>{{ property.title }}</h1>
-    <!-- </router-link> -->
-  </div>
 </template>
 <script>
-import PropertyCard from "../components/PropertyCard.vue";
+import Artists from "../components/Artists.vue";
 export default {
-  components: { PropertyCard },
-  data() {
-    return {
-      properties: [],
-    };
-  },
-  mounted() {
-    fetch("http://localhost:3000/properties")
-      .then((res) => res.json())
-      .then((data) => (this.properties = data))
-      .catch((err) => console.log(err.message));
+  components: {
+    Artists,
   },
 };
 </script>

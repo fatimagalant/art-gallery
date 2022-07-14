@@ -9,41 +9,18 @@
     </div>
   </section>
   <section id="Artists">
-    <div class="col align-items-center">
-      <div class="card">
-        <div class="card-body">
-          <router-link
-            :to="{ name: 'ArtistDetails', params: { id: users.id } }"
-          >
-          </router-link>
-          <img id="img" v-bind:src="users.imgURL" />
-          <h2 style="font-family: 'Josefin Sans', sans-serif">
-            {{ users.fullName }}
-          </h2>
-          <p style="font-family: 'Exo 2', sans-serif">test</p>
-        </div>
-      </div>
+    <div class="row">
+      <div class="col">1</div>
+      <div class="col">1</div>
+      <div class="col">1</div>
+      <div class="col">1</div>
+      <div class="col">1</div>
+      <div class="col">1</div>
+      <div class="col">1</div>
     </div>
   </section>
 </template>
-<script>
-import Artists from "../components/Artists.vue";
-export default {
-  components: { Artists },
-  data() {
-    return {
-      users: [],
-    };
-  },
-  mounted() {
-    fetch("http://localhost:3000/properties")
-      .then((res) => res.json())
-      .then((data) => (this.properties = data))
-      .catch((err) => console.log(err.message));
-  },
-};
-export default {};
-</script>
+<script></script>
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Finlandica&family=Lato&family=Oswald:wght@300&display=swap");
 #artists-intro {
