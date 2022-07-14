@@ -1,17 +1,17 @@
 <template>
-  <div class="home">
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-  </div>
+  <h1 id="landing-title">Les Chévres</h1>
+  <carousel />
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
+import carousel from "../components/carousel.vue";
 export default {
-  name: "HomeView",
-  components: {
-    HelloWorld,
-  },
+  components: { carousel },
 };
 </script>
+<style scoped>
+#landing-title {
+  font-size: 8rem;
+  font-family: "Cormorant SC", serif;
+}
+</style>

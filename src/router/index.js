@@ -1,10 +1,4 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Home from "../views/Home.vue";
-import About from "../views/About.vue";
-import Featured from "../views/Featured.vue";
-import Gallery from "../views/Gallery.vue";
-import Artists from "../views/Artists.vue";
-import Contact from "../views/Contact.vue";
 
 const routes = [
   {
@@ -42,11 +36,6 @@ const routes = [
     name: "ViewArt",
     component: () => import("../views/ViewArt.vue"),
     props: true,
-  },
-  {
-    path: "/",
-    name: "home",
-    component: HomeView,
   },
   {
     path: "/about",
