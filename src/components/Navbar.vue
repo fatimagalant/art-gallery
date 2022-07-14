@@ -54,7 +54,7 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped>
 #close-btn {
   margin-left: 110rem;
   margin-top: 3rem;
@@ -123,10 +123,12 @@ export default {
   #close-btn {
     margin-left: 21rem;
     margin-top: 2rem;
+     font-size: 1rem;
   }
   #menu-btn {
     position: fixed;
     right: -2rem;
+    font-size: 1rem;
   }
   .items {
     font-size: 2rem;

@@ -116,8 +116,17 @@
 .form-control {
   width: 100%;
 }
+@media screen and (max-width:838px) {
+  .form-control {
+  width: 100%;
+}
+  
+}
 #contact {
-  background: rgb(0, 0, 0);
+  padding-top:4rem;
+  background: rgb(27, 27, 27);
+  min-height: 100vh;
+  overflow-x:hidden;
 }
 .heading {
   color: white;
@@ -137,6 +146,11 @@ form {
 
 .col-4 {
   flex: 50%;
+}
+@media screen and (max-width:536px){
+  .col-6{
+   width:100%
+  }
 }
 @media screen and (max-width: 1060px) {
   .row {
@@ -315,15 +329,22 @@ hr {
 
 iframe {
   padding-bottom: 5px;
-  width: auto;
+  /* width: auto; */
 }
-/*
+
 @media screen and (max-width: 607px) {
   iframe {
-    width: 400px;
-    height: 400px;
+    width: auto;
+    /* height: 400px; */
   }
 }
+@media screen and (max-width: 838px) {
+  form{
+    width: 100%;
+    padding-left: 50px;
+  }
+}
+/*
 @media screen and (max-width: 607px) {
   #contact {
     display: flex;

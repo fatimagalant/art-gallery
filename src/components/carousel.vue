@@ -171,17 +171,14 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped>
 .all-img {
   display: none;
 }
 #c-img {
   height: 30rem;
 }
-#c-img:hover {
-  zoom: 150%;
-  transition: all ease-in-out 5s;
-}
+
 *,
 *:before,
 *:after {
@@ -198,13 +195,16 @@ main {
   padding-top: 60px;
   width: 100%;
   height: 100%;
-  background-color: #dbdbdb;
+  background-color: #ffffff;
+}
+#carousel{
+   background: rgb(35, 37, 38)!important;
 }
 .frame {
   position: relative;
   width: 600px;
   margin: 0 auto;
-  border: 26px #efefef solid;
+  border: 26px #e0e0e0 solid;
   background-color: #f5f5f5;
   box-shadow: inset -10px 0px 8px rgba(163, 155, 139, 0.66),
     inset 3px 0px 8px rgba(163, 155, 139, 0.12),

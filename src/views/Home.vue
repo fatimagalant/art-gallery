@@ -1,6 +1,8 @@
 <template>
+<div id="home">
   <h1 id="landing-title">Les Chévres</h1>
   <carousel />
+  </div>
 </template>
 
 <script>
@@ -13,5 +15,8 @@ export default {
 #landing-title {
   font-size: 8rem;
   font-family: "Cormorant SC", serif;
+}
+#home{
+  background-color:white!important;
 }
 </style>

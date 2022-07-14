@@ -1,5 +1,5 @@
 <template>
-  <div class="artists"></div>
+ <div class="artists"></div>
   <section id="artists-intro">
     <div id="intro">
       <p class="header">artists</p>
@@ -105,6 +105,7 @@
   background-attachment: fixed;
   background-size: cover;
   min-height: 100vh;
+  padding-top: 15rem;
 }
 img {
   width: 450px;
@@ -142,14 +143,14 @@ img {
   }
 }
 .container {
-  border: 1px solid rgba(255, 255, 255, 0.685);
+  border: 1px solid rgba(0, 0, 0, 0.685);
   z-index: 1;
   max-width: fit-content;
   max-height: fit-content;
   justify-content: center;
 }
 .container:hover {
-  border: 2px solid white;
+  border: 2px solid black;
 }
 #artists {
   min-height: 100vh;
@@ -169,6 +170,7 @@ img {
   width: fit-content;
   height: auto;
   box-shadow: 2px black;
+  border: black;
 }
 /* #img {
   padding-bottom: 10px;
@@ -185,4 +187,111 @@ img {
     height: auto;
   }
 }
+@media only screen and (max-width: 838px) {
+  form {
+padding-left: 10rem;
+  }
+}
+/* @import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Finlandica&family=Lato&family=Oswald:wght@300&display=swap");
+#Artists{
+  overflow-x: hidden;
+}
+#intro {
+  background-image: url("../assets/about gif.gif");
+  background-color: beige;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  padding-top:15%;
+  overflow-x:hidden;
+}
+img {
+  width: 450px;
+  height: 550px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+#artists-intro {
+  font-size: 4rem;
+  font-family: "Cormorant SC", serif;
+  background-color: rgb(255, 255, 255);
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+}
+.intro:hover {
+  color: white;
+}
+.artist-heading {
+  font-size: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-top: 30px;
+  padding-bottom: 2rem;
+}
+.header {
+  font-size: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.intro {
+  color: black;
+  z-index: 100;
+  padding: none;
+}
+@media screen and (max-width: 550px) {
+  .intro {
+    font-size: 3rem;
+  }
+}
+.container {
+  border: 1px solid black;
+  z-index: 1;
+  max-width: fit-content;
+  max-height: fit-content;
+  justify-content: center;
+}
+.container:hover {
+  border: 2px solid rgb(0, 0, 0);
+}
+#artists {
+  min-height: 100vh;
+  align-items:center !important;
+}
+.col-6 {
+  padding-bottom: 10px;
+  justify-content: space-around;
+  margin: 0!important;
+}
+@media screen and (max-width: 1260px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.card {
+  width: fit-content;
+  height: auto;
+background-color: black!important;
+margin: 0!important;
+}
+
+#img {
+  padding-bottom: 10px;
+  width: 200px;
+  height: 200px;
+}
+.col-6 {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 600px) {
+  #img {
+    width: 15rem;
+    height: auto;
+  }
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+
 </style>
