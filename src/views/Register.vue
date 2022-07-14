@@ -25,6 +25,7 @@
               <option value="" disabled selected>User Type</option>
               <option value="" name="client">Client</option>
               <option value="" name="artist">Artist</option>
+              <option value="" name="admin">Admin</option>
             </select>
           </div>
           <div class="email-pass">
