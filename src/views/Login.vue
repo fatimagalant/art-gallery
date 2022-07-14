@@ -5,26 +5,33 @@
         <div id="login-margin">
           <h1 id="login-header">Login</h1>
           <p id="login-subheader" class="py-2">our vast collection awaits...</p>
-          <form @submit.prevent="login" id="form-container">
-            <label for="emailField">
-              Email <br />
-              <input
-                type="email"
-                name="emailField"
-                id="emailInput"
-                v-model="email"
-              />
-            </label>
+          <div>
+            <form @submit.prevent="login" id="form-container">
+              <label for="emailField">
+                Email <br />
+                <input
+                  v-model="email"
+                  type="email"
+                  name="emailField"
+                  id="emailInput"
+                />
+              </label>
 
-            <label for="passwordField">
-              Password <br />
-              <input type="password" name="passwordField" v-model="password" />
-            </label>
-            <button id="btn-login">Login</button>
-            <p id="create-txt">
-              Don't have an account? <a href="register">Create one now</a>
-            </p>
-          </form>
+              <label for="passwordField">
+                Password <br />
+                <input
+                  v-model="password"
+                  type="password"
+                  name="passwordField"
+                />
+              </label>
+              <button id="btn-login">Login</button>
+              <p id="create-txt">
+                Don't have an account? <a href="register">Create one now</a>
+              </p>
+            </form>
+            <div v-if="user">Welcome {{ user.fullName }}</div>
+          </div>
         </div>
       </div>
       <div class="parent">
@@ -59,9 +66,10 @@ export default {
   },
   methods: {
     login() {
-      this.$store.dispatch("login");
-      email: this.email;
-      pasword: this.password;
+      this.$store.dispatch("login", {
+        email: this.email,
+        password: this.password,
+      });
     },
   },
 };
@@ -194,6 +202,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 #login {
   /* background: rgb(35, 37, 38); */
   background: rgb(35, 37, 38);
@@ -201,6 +210,7 @@ table {
   width: 100%;
   height: 88.6vh;
 }
+
 .parent {
   position: relative;
   top: 0;
@@ -227,6 +237,7 @@ table {
 
 .parent:hover {
   animation: none;
+
   box-shadow: 10px 11px 19px -8px rgba(209, 153, 44, 0.48);
   -webkit-box-shadow: 10px 11px 19px -8px rgba(209, 153, 44, 0.48);
   -moz-box-shadow: 10px 11px 19px -8px rgba(209, 153, 44, 0.48);
@@ -260,9 +271,11 @@ table {
   border-bottom-left-radius: 20px;
   border: 1px solid rgba(0, 0, 0, 0.336);
 }
+
 #login-margin {
   margin: 50px 0px 50px 50px;
 }
+
 #login-header {
   font-family: "Poppins", sans-serif;
   font-size: 45px;
