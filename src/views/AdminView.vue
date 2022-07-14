@@ -47,10 +47,10 @@
         <div id="panel" class="pb-5 mb-5">
           <nav class="navbar navbar-expand-lg navbar-light px-5 py-3" id="bottom-nav">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"
+              <a class="navbar-brand text-white" href="#"
                 >Artworks
                 <span class="badge rounded-pill bg-danger" id="badge-count">10</span> <br />
-                <p class="lead text-muted" id="pnl-sub">
+                <p class="lead text-white" id="pnl-sub">
                   keep track of your sales/listings
                 </p></a
               >
@@ -316,17 +316,18 @@ h1, h2, h3, h4, h5, h6{
 font-family: 'Open Sans', sans-serif;
 }
 #top-nav {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.137);
-  background: rgb(228, 228, 228);
+  border-bottom: 1px solid rgba(210, 209, 209, 0.137);
+  background: rgb(35, 37, 38);
+  color:white;
   
 }
 #bottom-nav{
-background-color: white;
+background-color: rgb(35, 37, 38);
 border-radius: 10px 10px;
 }
 
 #admin-tools {
-  background: rgb(228, 228, 228);
+  background: rgb(35, 37, 38);
 
   width: 100%;
   min-height: 88.7vh;
@@ -341,11 +342,11 @@ border-radius: 10px 10px;
 }
 
 #panel {
-  background-color: white;
+  background-color: rgb(37, 39, 40);
   width: 80%;
   height: fit-content;
   border-radius: 8px 8px;
-  box-shadow: 0px 20px 40px 0px rgb(0 0 0 / 10%) !important;
+  box-shadow: 0px 20px 40px 0px rgba(221, 220, 220, 0.259) !important;
 }
 
 .badge {
@@ -356,6 +357,7 @@ border-radius: 10px 10px;
 
 #pnl-sub {
   font-size: 15px !important;
+  
 }
 
 .search-input{
@@ -417,7 +419,9 @@ input[type="search"]::placeholder {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 600;
-  background-color: rgba(248, 248, 248, 0.993);
+  background-color: rgb(42, 45, 46);
+  color: white;
+  
   
 }
 
