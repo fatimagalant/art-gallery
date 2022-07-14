@@ -4,7 +4,7 @@ export default createStore({
   state: {
     pieces: null,
     piece: null,
-    users: null,
+    user: null,
   },
   getters: {},
   mutations: {

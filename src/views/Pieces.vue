@@ -13,7 +13,7 @@
 <script>
 export default {
   mounted() {
-    this.$store.dispatch("getAllArt");
+    return this.$store.dispatch("getAllArt");
   },
   computed: {
     pieces() {
