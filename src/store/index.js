@@ -5,6 +5,7 @@ export default createStore({
     pieces: null,
     piece: null,
     user: null,
+    asc: true,
   },
   getters: {},
   mutations: {
@@ -56,10 +57,19 @@ export default createStore({
         .then((res) => res.json())
         .then((pieces) => context.commit("setPieces", pieces));
     },
-    createPieces: async (context, piece) => {
+    createPieces: async (context, payload) => {
+      const { artistName, artName, price, imgURL, description, category } =
+        payload;
       fetch("http://localhost:3000/pieces", {
         method: "POST",
-        body: JSON.stringify(piece),
+        body: JSON.stringify({
+          artistName: artistName,
+          artName: artName,
+          price: price,
+          imgURL: imgURL,
+          description: description,
+          category: category,
+        }),
         headers: {
           "Content-type": "application/json; charset=UTF-8",
         },
@@ -68,9 +78,19 @@ export default createStore({
         .then(() => context.dispatch("getAllArt"));
     },
     updatePieces: async (context, piece) => {
+      const { artistName, artName, price, imgURL, description, category } =
+        payload;
       fetch("http://localhost:3000/pieces" + piece.id, {
         method: "PUT",
-        body: JSON.stringify(piece),
+        body: JSON.stringify({
+          id: id,
+          artistName: artistName,
+          artName: artName,
+          price: price,
+          imgURL: imgURL,
+          description: description,
+          category: category,
+        }),
         headers: {
           "Content-type": "application/json; charset=UTF-8",
         },
@@ -79,7 +99,7 @@ export default createStore({
         .then(() => context.dispatch("getAllArt"));
     },
     deletePiece: async (context, id) => {
-      fetch("http://localhost:3000/pieces" + id, {
+      fetch("http://localhost:3000/pieces/" + id, {
         method: "DELETE",
       }).then(() => context.dispatch("getAllArt"));
     },

@@ -114,13 +114,6 @@
       "password": "password",
       "role": "artist",
       "img": "https://i.postimg.cc/yk62XYHM/Edith-Brown.jpg"
-    },
-    {
-      "fullName": "sdf",
-      "email": "asc@j.co",
-      "password": "pass",
-      "role": "client",
-      "id": 16
     }
   ],
   "pieces": [

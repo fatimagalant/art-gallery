@@ -20,6 +20,9 @@
         </div>
       </div>
     </div>
+    <div v-else>
+      <h1>Loading...</h1>
+    </div>
   </section>
 </template>
 <script>
