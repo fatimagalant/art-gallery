@@ -114,6 +114,41 @@
       "password": "password",
       "role": "artist",
       "img": "https://i.postimg.cc/yk62XYHM/Edith-Brown.jpg"
+    },
+    {
+      "fullName": "sdf",
+      "email": "dsf@dvs.cd",
+      "password": "password",
+      "role": "artist",
+      "id": 16
+    },
+    {
+      "fullName": "asd",
+      "email": "s@l.co",
+      "password": "password",
+      "role": "client",
+      "id": 17
+    },
+    {
+      "fullName": "akjk",
+      "email": "i@j.co",
+      "password": "password",
+      "role": "client",
+      "id": 18
+    },
+    {
+      "fullName": "asdas",
+      "email": "A@sfa.co",
+      "password": "pass",
+      "role": "",
+      "id": 19
+    },
+    {
+      "fullName": "asd",
+      "email": "a3lf4l@lkfds.co",
+      "password": "pass",
+      "role": "artist",
+      "id": 20
     }
   ],
   "pieces": [

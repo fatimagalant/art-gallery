@@ -49,6 +49,7 @@
           </div>
           <button class="my-4" id="btn-register" type="submit">Register</button>
         </form>
+        <div v-if="user" id="welcome">Welcome {{ user.fullName }}</div>
       </div>
     </section>
   </div>
@@ -63,6 +64,8 @@ export default {
   },
   data() {
     return {
+      fullName: "",
+      role: "",
       email: "",
       password: "",
     };
@@ -70,6 +73,8 @@ export default {
   methods: {
     register() {
       this.$store.dispatch("register", {
+        fullName: this.fullName,
+        role: this.role,
         email: this.email,
         password: this.password,
       });
@@ -201,6 +206,7 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;

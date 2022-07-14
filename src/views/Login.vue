@@ -3,8 +3,14 @@
     <div class="main-panel">
       <div id="login-panel">
         <div id="login-margin">
-          <h1 id="login-header">Login</h1>
-          <p id="login-subheader" class="py-2">our vast collection awaits...</p>
+          <h1 v-if="user" id="login-header">Welcome</h1>
+          <h1 v-else id="login-header">Login</h1>
+          <p id="login-subheader" class="py-2" v-if="user">
+            {{ user.fullName }}
+          </p>
+          <p id="login-subheader" class="py-2" v-else>
+            our vast collection awaits...
+          </p>
           <div>
             <form @submit.prevent="login" id="form-container">
               <label for="emailField">
@@ -30,7 +36,6 @@
                 Don't have an account? <a href="register">Create one now</a>
               </p>
             </form>
-            <div v-if="user">Welcome {{ user.fullName }}</div>
           </div>
         </div>
       </div>
@@ -71,6 +76,9 @@ export default {
         password: this.password,
       });
     },
+  },
+  mounted() {
+    console.log(this.user);
   },
 };
 </script>

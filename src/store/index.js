@@ -15,6 +15,7 @@ export default createStore({
       state.piece = piece;
     },
     setUser: (state, user) => {
+      console.log(user);
       state.user = user;
     },
   },
