@@ -5,7 +5,10 @@
       class="d-flex justify-content-center align-items-center col"
     >
       <div id="left-page">
-        <h1 id="register-heading">
+        <h1 v-if="user" id="register-heading">
+          New user created and logged in<span class="text-primary">.</span>
+        </h1>
+        <h1 v-else id="register-heading">
           Create a new account<span class="text-primary">.</span>
         </h1>
         <p id="register-subheading">
