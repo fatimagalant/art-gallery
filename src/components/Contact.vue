@@ -119,7 +119,7 @@
 @media screen and (max-width:838px) {
   .form-control {
   width: 100%;
-}
+  }
   
 }
 #contact {

@@ -187,11 +187,6 @@ img {
     height: auto;
   }
 }
-@media only screen and (max-width: 838px) {
-  form {
-padding-left: 10rem;
-  }
-}
 /* @import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Finlandica&family=Lato&family=Oswald:wght@300&display=swap");
 #Artists{
   overflow-x: hidden;
