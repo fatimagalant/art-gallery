@@ -463,10 +463,14 @@ letter-spacing: 10px;
   padding-bottom: 3px;
 }
 
-#modal-form{
-display: flex;
-justify-content: space-around;
+ #modal-form{
+padding: 20px;
 
+}
+
+.modal-dialog{
+  margin: auto;
+  padding: 10px;
 }
 
 
