@@ -1,12 +1,16 @@
 <template>
   <div class="about">
-        <section id="blog">
-    <h1 id="blog-heading">BLOG</h1>
-<img src="assets/artsy.jpg" alt="" id="image-artsy">
+<section id="blog">
+    <h1 id="blog-heading">ABOUT</h1>
+<img src="../assets/about/artsy.jpg" alt="" id="image-artsy">
 <div id="text-container">
-      <h1 id="text-header">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis reiciendis!</h1>
+      <h1 id="text-header">Les Chévres is a multidisciplinary a digital art gallery</h1>
       <p id="text-body">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit nam consectetur nisi modi dolore beatae animi reiciendis accusamus quis, officia amet autem recusandae tenetur sunt quos itaque quidem illo assumenda similique laudantium, aliquid minus repellat. Corrupti fuga adipisci placeat earum consequuntur in debitis, ab esse ratione eaque hic!
+        Located in Cape Town's Arts District. It was founded in 2022 by Fatima Galant, Ricardo Ronan Moses, Joshua Steed and Uzair Damonse. It features art exhibitions and the development of  diverse projects in the fields of art and culture. The visit to art galleries in Cape Town was a starting point and a major inspiration for developing the early concepts of Les Chévres.
+ The  rich history of Cape art and the way ancient art forms  have always served as a powerful transformative tool for humankind have deeply influenced the founders throughout the creative process.
+.As a result, a continuous artistic portrayal of the relationship between humans and nature, from observing the full integration of humanity into its primitive culture and environment, to modern efforts to understand its relationship today. Les Chévres concept relates to  land and nature, our deeper souls, and all the inherited transformative powers we have inherited from our most primitive ancestors. It is  ancient wisdom linked to the present and the future through modern artistic expression. The galleries represent artists whose deep connection to nature is their main source of inspiration. By using natural materials and inspiring debate on this subject, they are helping to rethink this important but endangered connection to the Earth.
+ These artists are particularly focused on their process. It is often challenging and sometimes goes against traditional practices and techniques. As a result, the boundaries between media and  established boundaries of art, craft, and design are often blurred.
+
     </p>
     <a href="" id="blog-link">Read more <i class="bi bi-arrow-right"></i></a>
       </div>
@@ -17,7 +21,6 @@
 </template>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -79,7 +82,6 @@ table {
 #image-artsy{
     width: auto;
     height: 600px;
-        
 float: right;
 margin-right: 28%;
 margin-top: 5%;
@@ -93,8 +95,9 @@ filter: brightness(0.7);
 #text-header{
     font-family: 'Playfair Display', serif;
     font-weight: 400;
-    
-
+    font-size: 35px;
+    margin: 0px auto;
+padding: 0;
 }
 #text-body{
 width: 69%;
@@ -133,6 +136,5 @@ box-shadow:  19px 19px 39px #1e1e1e,
     height: 250px;
     
 }
-
 
 </style>
