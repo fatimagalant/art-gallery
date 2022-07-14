@@ -21,7 +21,6 @@ export default createStore({
   actions: {
     login: async (context, payload) => {
       const { email, password } = payload;
-
       const response = await fetch(
         `http://localhost:3000/users?email=${email}&password=${password}`
       );
@@ -29,7 +28,7 @@ export default createStore({
       context.commit("setUser", userData[0]);
     },
     register: async (context, payload) => {
-      const { fullName, email, password } = payload;
+      const { fullName, email, password, role } = payload;
 
       fetch("http://localhost:3000/users", {
         method: "POST",
@@ -37,13 +36,14 @@ export default createStore({
           fullName: fullName,
           email: email,
           password: password,
+          role: role,
         }),
         headers: {
           "Content-type": "application/json; charset=UTF-8",
         },
       })
         .then((response) => response.json())
-        .then((json) => console.log("setUser", json));
+        .then((json) => context.commit("setUser", json));
     },
     getAllArt: async (context) => {
       fetch("http://localhost:3000/pieces")

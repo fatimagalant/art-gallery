@@ -13,32 +13,41 @@
         </p>
       </div>
       <div id="form-container">
-        <form id="form-panel" action="">
+        <form id="form-panel" @submit.prevent="register">
           <p id="slogan" class="pb-3">JOIN THE GALLERY</p>
           <div class="name-type">
             <label for="fullNameField">
               Full Name <br />
-              <input type="text" name="fullNameField" />
+              <input type="text" name="fullNameField" v-model="fullName" />
             </label>
 
-            <select name="userTypeSelector" id="userTypeSelector">
+            <select
+              name="userTypeSelector"
+              id="userTypeSelector"
+              v-model="role"
+            >
               <option value="" disabled selected>User Type</option>
-              <option value="" name="client">Client</option>
-              <option value="" name="artist">Artist</option>
+              <option value="client" name="client">Client</option>
+              <option value="artist" name="artist">Artist</option>
             </select>
           </div>
           <div class="email-pass">
             <label id="emailField-lbl" for="emailField">
               Email <br />
-              <input type="email" name="emailField" id="emailInput" />
+              <input
+                type="email"
+                name="emailField"
+                id="emailInput"
+                v-model="email"
+              />
             </label>
 
             <label for="passwordField">
               Password <br />
-              <input type="password" name="passwordField" />
+              <input type="password" name="passwordField" v-model="password" />
             </label>
           </div>
-          <button class="my-4" id="btn-register">Register</button>
+          <button class="my-4" id="btn-register" type="submit">Register</button>
         </form>
       </div>
     </section>
@@ -46,7 +55,27 @@
 </template>
 
 <script>
-export default {};
+export default {
+  computed: {
+    user() {
+      return this.$store.state.user;
+    },
+  },
+  data() {
+    return {
+      email: "",
+      password: "",
+    };
+  },
+  methods: {
+    register() {
+      this.$store.dispatch("register", {
+        email: this.email,
+        password: this.password,
+      });
+    },
+  },
+};
 </script>
 
 <style scoped>

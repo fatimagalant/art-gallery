@@ -53,6 +53,7 @@
 
 nav {
   padding: 30px;
+  background: rgb(35, 37, 38);
 }
 
 nav a {

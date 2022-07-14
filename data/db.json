@@ -40,70 +40,80 @@
       "fullName": "Aston Bailey",
       "email": "ashton@gmail.com",
       "password": "password",
-      "role": "artist"
+      "role": "artist",
+      "img": "https://i.postimg.cc/8J8bywrF/Ashton-Bailey.png"
     },
     {
       "id": 7,
       "fullName": "Zoe Palmer",
       "email": "zoe@gmail.com",
       "password": "password",
-      "role": "artist"
+      "role": "artist",
+      "img": "https://i.postimg.cc/PNT7TrPC/Zoe-Palmer.jpg"
     },
     {
       "id": 8,
       "fullName": "Nanor",
       "email": "nanor@gmail.com",
       "password": "password",
-      "role": "artist"
+      "role": "artist",
+      "img": "https://i.postimg.cc/wtNrT1Xm/Nanor.jpg"
     },
     {
       "id": 9,
       "fullName": "Attack on Canvas",
       "email": "attack@gmail.com",
       "password": "password",
-      "role": "artist"
+      "role": "artist",
+      "img": "https://i.postimg.cc/tswfj3xb/Attack-on-Canvas.jpg"
     },
     {
       "id": 10,
       "fullName": "Allistarr",
       "email": "@gmail.com",
       "password": "password",
-      "role": "artist"
+      "role": "artist",
+      "img": "https://i.postimg.cc/30YFhR1Y/Allistairr.jpg"
     },
     {
       "id": 11,
       "fullName": "Luka Sin Clair",
       "email": "luka@gmail.com",
       "password": "password",
-      "role": "artist"
+      "role": "artist",
+      "img": "https://i.postimg.cc/vxhLZs29/Luka-Sincalir.jpg"
     },
     {
       "id": 12,
       "fullName": "Akira Ikutu",
       "email": "akira@gmail.com",
       "password": "password",
-      "role": "artist"
+      "role": "artist",
+      "img": "https://i.postimg.cc/y31pPnwm/Akira-Ikuta.jpg"
     },
     {
       "id": 13,
       "fullName": "Cyrus Karibu",
       "email": "cyrus@gmail.com",
       "password": "password",
-      "role": "artist"
+      "role": "artist",
+      "img": "https://i.postimg.cc/k6dpV7sh/Cyrus-Kabiru.jpg"
     },
     {
       "id": 14,
       "fullName": "Maeve Powell",
       "email": "maeve@gmail.com",
       "password": "password",
-      "role": "artist"
+      "role": "artist",
+      "img": "https://i.postimg.cc/BLcwHRwZ/Maeve-Powell.jpg"
     },
     {
       "id": 15,
       "fullName": "Edith Brown",
       "email": "edith@gmail.com",
       "password": "password",
-      "role": "artist"
+      "role": "artist",
+      "img": "https://i.postimg.cc/yk62XYHM/Edith-Brown.jpg"
     }
   ],
   "pieces": [
