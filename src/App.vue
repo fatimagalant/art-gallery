@@ -12,6 +12,9 @@
 </template>
 
 <style>
+::-webkit-scrollbar {
+    display: none;
+}
 #app {
 
 }
