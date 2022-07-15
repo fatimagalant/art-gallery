@@ -30,6 +30,11 @@ export default createStore({
       const userData = await response.json();
       context.commit("setUser", userData[0]);
     },
+    getCategory: async (context, category) => {
+      await fetch(`http://localhost:3000/pieces?category=${category}`)
+        .then((response) => response.json())
+        .then((pieces) => context.commit("setPieces", pieces));
+    },
     register: async (context, payload) => {
       const { fullName, email, password, role } = payload;
 
