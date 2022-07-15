@@ -455,13 +455,13 @@ img {
   transform: rotateY(180deg);
 }
 .about-img {
-  width: 420px;
-  height: 420px;
+  width: 20rem;
+  height: 20rem;
 }
 
 .about-img1 {
-  width: 400px;
-  height: 350px;
+  width: 20rem;
+  height: 20rem;
 }
 @media screen and (max-width: 1285px) {
   .about-img1[data-v-2372560c][data-v-2372560c] {
