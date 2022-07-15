@@ -4,13 +4,9 @@
     <h1 id="blog-heading">ABOUT</h1>
 <img src="../assets/about/artsy.jpg" alt="" id="image-artsy">
 <div id="text-container">
-      <h1 id="text-header">Les Chévres is a multidisciplinary a digital art gallery</h1>
+      <h1 id="text-header">Les Chévres is a multidisciplinary digital art gallery</h1>
       <p id="text-body">
         Located in Cape Town's Arts District. It was founded in 2022 by Fatima Galant, Ricardo Ronan Moses, Joshua Steed and Uzair Damonse. It features art exhibitions and the development of  diverse projects in the fields of art and culture. The visit to art galleries in Cape Town was a starting point and a major inspiration for developing the early concepts of Les Chévres.
- The  rich history of Cape art and the way ancient art forms  have always served as a powerful transformative tool for humankind have deeply influenced the founders throughout the creative process.
-.As a result, a continuous artistic portrayal of the relationship between humans and nature, from observing the full integration of humanity into its primitive culture and environment, to modern efforts to understand its relationship today. Les Chévres concept relates to  land and nature, our deeper souls, and all the inherited transformative powers we have inherited from our most primitive ancestors. It is  ancient wisdom linked to the present and the future through modern artistic expression. The galleries represent artists whose deep connection to nature is their main source of inspiration. By using natural materials and inspiring debate on this subject, they are helping to rethink this important but endangered connection to the Earth.
- These artists are particularly focused on their process. It is often challenging and sometimes goes against traditional practices and techniques. As a result, the boundaries between media and  established boundaries of art, craft, and design are often blurred.
-
     </p>
     <a href="" id="blog-link">Read more <i class="bi bi-arrow-right"></i></a>
       </div>
@@ -89,19 +85,22 @@ filter: brightness(0.7);
 }
 
 #text-container{    position: absolute;
-    top:100px;
-    width: 40%;
-    margin-left: 20%;color: white;}
+    top:12rem;
+    width: 38rem;
+    margin-left: 20%;color: white;
+    }
+
 #text-header{
     font-family: 'Playfair Display', serif;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 2.5rem;
     margin: 0px auto;
 padding: 0;
 }
 #text-body{
-width: 69%;
+width: 20rem;
 text-align: justify;
+padding-bottom: 3rem;
 }
 
 #blog-link{
