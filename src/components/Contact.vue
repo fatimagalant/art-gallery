@@ -173,7 +173,7 @@ iframe {
   filter: invert();
 }
 .feedback-input {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-family: "Lato", sans-serif;
   font-weight: 500;
   font-size: 16px;
