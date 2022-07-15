@@ -34,7 +34,7 @@ const routes = [
   {
     path: "/ViewArt/:id",
     name: "ViewArt",
-    component: () => import("../views/ViewArt.vue"),
+    component: () => import("../views/ArtworkDetails.vue"),
     props: true,
   },
   {
