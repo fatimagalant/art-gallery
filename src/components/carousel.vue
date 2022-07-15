@@ -1,5 +1,4 @@
 <template>
-  <h1>Our Featured work</h1>
   <div id="carrousel">
     <div ref="container" class="keen-slider">
       <div class="keen-slider__slide number-slide1">
@@ -197,8 +196,8 @@ main {
   height: 100%;
   background-color: #ffffff;
 }
-#carousel{
-   background: rgb(35, 37, 38)!important;
+#carousel {
+  background: rgb(35, 37, 38) !important;
 }
 .frame {
   position: relative;

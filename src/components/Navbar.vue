@@ -7,9 +7,7 @@
         v-bind:src="'https://i.postimg.cc/J4xCfTgD/tinywow-remove-bg-3337581.png'"
     /></router-link>
 
-    <router-link class="items" @click="toggleNav()" to="/home"
-      >Home</router-link
-    >
+    <router-link class="items" @click="toggleNav()" to="/">Home</router-link>
     <router-link class="items" @click="toggleNav()" to="/about"
       >About</router-link
     >
@@ -106,10 +104,10 @@ export default {
   z-index: 100;
   font-family: fancy;
   position: fixed;
-  top: -100%;
+  top: -150%;
   left: 0;
   right: 0;
-  height: 100vh;
+  height: 105vh;
   background-color: black;
   display: flex;
   flex-flow: column nowrap;
@@ -123,7 +121,7 @@ export default {
   #close-btn {
     margin-left: 21rem;
     margin-top: 2rem;
-     font-size: 1rem;
+    font-size: 1rem;
   }
   #menu-btn {
     position: fixed;
