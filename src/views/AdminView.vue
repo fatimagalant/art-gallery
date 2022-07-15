@@ -185,9 +185,7 @@
                 @click="sortId"
               ></i>
             </div>
-            <div class="col-1">
-              PREVIEW <i id="sortItems" class="bi bi-arrow-down-up ms-1"></i>
-            </div>
+            <div class="col-1">PREVIEW</div>
             <div class="col-2">
               <span @click="sortTitle" id="sortItems">TITLE</span> /
               <span @click="sortArtist" id="sortItems">ARTIST NAME</span>
