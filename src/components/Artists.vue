@@ -11,7 +11,7 @@
     </div>
   </section>
   <section id="Artists">
-    <h1 class="artist-heading">Meet Our Artists</h1>
+    <h1 class="artist-heading text-center">Meet Our Artists</h1>
     <div class="test-container">
       <div class="row">
         <div class="col-lg-4 col-md-12 mt-4">
@@ -330,6 +330,7 @@ img {
 }
 .intro:hover {
   color: white;
+  user-select: none;
 }
 .artist-heading {
   font-size: 2rem;

@@ -121,19 +121,19 @@
       "artistName": "Ashton Bailey",
       "artName": "Globe of Thought",
       "price": 5608484400,
-      "imgURL": "https://i.postimg.cc/VvpNCtSj/Globe-of-Thought.jpg",
+      "imgURL": "https://i.postimg.cc/gJWJzJCj/Globe_of_Thought.jpg",
       "description": "This is a small world in a big universe and we are it's inhabitants",
       "category": "Drawing",
       "id": 1
     },
     {
-      "id": 2,
       "artistName": "Ashton Bailey",
-      "artName": "I heart EREN JAEGER",
+      "artName": "Levi Ackerman",
       "price": 7169848760,
       "imgURL": "https://i.postimg.cc/sDGxRT8K/Levi.jpg",
       "description": "A man whose height is not much, but his heroics make him a force to be reckoned with. This is Levi Ackerman, he is particularly good at saving Eren Jaeger.",
-      "category": "Drawing"
+      "category": "Drawing",
+      "id": 2
     },
     {
       "id": 3,
@@ -145,22 +145,22 @@
       "category": "Drawing"
     },
     {
-      "id": 4,
       "artistName": "Ashton Bailey",
-      "artName": "The girl at the station",
+      "artName": "Yellowing Surroundings",
       "price": 3961594960,
       "imgURL": "https://i.postimg.cc/QMhd1hMn/Yellowing-Surroundings.jpg",
-      "description": "My inspiration for 'The girl at the station' was simply a real life moment at a train station that caught my attention and I paint what I saw",
-      "category": "Painting"
+      "description": "My inspiration for 'Yellowing Surroundings' was simply a real life moment at a train station that caught my attention and I paint what I saw",
+      "category": "Painting",
+      "id": 4
     },
     {
-      "id": 5,
       "artistName": "Ashton Bailey",
-      "artName": "Sunshine",
+      "artName": "The Roads of LANA",
       "price": 853212711,
       "imgURL": "https://i.postimg.cc/d1QDPwPT/Mega-Simp.jpg",
-      "description": "I call this piece 'Sunshine' because, I made this piece in resemblance of someone who used to light up my life.",
-      "category": "Drawing"
+      "description": "I call this piece 'The Roads of LANA' because, I made this piece in resemblance of someone who used to light up my life.",
+      "category": "Drawing",
+      "id": 5
     },
     {
       "id": 6,
@@ -375,7 +375,7 @@
       "artName": "Grounded Practice",
       "price": 3823686970,
       "imgURL": "https://i.postimg.cc/Gm3dnSGT/Grounded_Practice.jpg",
-      "description": "wings of exploration",
+      "description": "Wings of exploration",
       "category": "Sculpture"
     },
     {
@@ -384,7 +384,7 @@
       "artName": "Stand Out",
       "price": 6082830209,
       "imgURL": "https://i.postimg.cc/J4Vzvqpj/Stand_Out.jpg",
-      "description": "there will be many people who have the same style, ideas as you. Stand out.",
+      "description": "There will be many people who have the same style, ideas as you. Stand out.",
       "category": "Painting"
     },
     {
@@ -432,7 +432,6 @@
       "description": "Even the most beautiful flowers must eventually fall off.",
       "category": "Painting"
     },
-
     {
       "id": 36,
       "artistName": "Maeve Powell",
@@ -456,7 +455,7 @@
       "artistName": "Maeve Powell",
       "artName": "Business of Surprise",
       "price": 8218223268,
-      "imgURL": "https://i.postimg.cc/BvLh0LDd/Contemplating-Storm.jpg",
+      "imgURL": "https://i.postimg.cc/9X8BGJWQ/Business_of_Surprise.jpg",
       "description": "Never expect nothing less of the element of suprise.",
       "category": "Wildlife"
     },
@@ -484,7 +483,7 @@
       "artName": "Contemplating Morning",
       "price": 3162628217,
       "imgURL": "https://i.postimg.cc/SNvGQ3Mp/Contemplating_Morning.jpg",
-      "description": "seen as a drop of mercury stopped in time.",
+      "description": "Seen as a drop of mercury stopped in time.",
       "category": "Sculpture"
     },
     {
@@ -511,7 +510,7 @@
       "artName": "Illustrious Accident",
       "price": 3255999109,
       "imgURL": "https://i.postimg.cc/SNJWPdt1/Illustrious_Accident.jpg",
-      "description": "asdsa",
+      "description": "Ripples in the vortex",
       "category": "Abstract"
     },
     {

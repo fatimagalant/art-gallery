@@ -44,7 +44,6 @@
           :to="{ name: 'GalleryCategory', params: { cat: 'Abstract' } }"
         >
           <div class="panel" id="abstract">
-            <p>4 Items</p>
             <h3>Abstract</h3>
           </div>
         </router-link>
@@ -52,7 +51,6 @@
           :to="{ name: 'GalleryCategory', params: { cat: 'Painting' } }"
         >
           <div class="panel" id="painting">
-            <p>11 Items</p>
             <h3>Paintings</h3>
           </div>
         </router-link>
@@ -60,7 +58,6 @@
           :to="{ name: 'GalleryCategory', params: { cat: 'Sculpture' } }"
         >
           <div class="panel" id="sculpture">
-            <p>6 Items</p>
             <h3>Sculptures</h3>
           </div>
         </router-link>
@@ -68,7 +65,6 @@
           :to="{ name: 'GalleryCategory', params: { cat: 'Wildlife' } }"
         >
           <div class="panel" id="wildlife">
-            <p>9 Items</p>
             <h3>Wildlife</h3>
           </div>
         </router-link>

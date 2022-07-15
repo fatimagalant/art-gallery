@@ -44,14 +44,21 @@
                   <option value="Painting">Painting</option>
                   <option value="Sculpture">Sculpture</option>
                   <option value="Drawing">Drawing</option>
-                  <option value="Widlife">Widlife</option>
+                  <option value="Wildlife">Wildlife</option>
                 </select>
                 <input
                   class="search-input ps-2 rounded"
                   type="text"
                   placeholder="Search by title"
                   aria-label="Search"
-                  v-model="search"
+                  v-model="searchTitle"
+                />
+                <input
+                  class="search-input ms-2 ps-2 rounded"
+                  type="text"
+                  placeholder="Search by description"
+                  aria-label="Search"
+                  v-model="searchDescription"
                 />
 
                 <!-- Button trigger modal -->
@@ -138,7 +145,7 @@
                             <option value="Painting">Painting</option>
                             <option value="Sculpture">Sculpture</option>
                             <option value="Drawing">Drawing</option>
-                            <option value="Widlife">Widlife</option>
+                            <option value="Wildlife">Wildlife</option>
                           </select>
                           <textarea
                             name="description"
@@ -170,12 +177,46 @@
 
         <div class="container py-2" id="title-container">
           <div class="row">
-            <div class="col-1 ms-1">ID</div>
-            <div class="col-1">PREVIEW</div>
-            <div class="col-2">TITLE / ARTIST NAME</div>
-            <div class="col-4">DESCRIPTION</div>
-            <div class="col-1">CATEGORY</div>
-            <div class="col-1">PRICE</div>
+            <div class="col-1 ms-1">
+              ID
+              <i
+                id="sortItems"
+                class="bi bi-arrow-down-up ms-1"
+                @click="sortId"
+              ></i>
+            </div>
+            <div class="col-1">
+              PREVIEW <i id="sortItems" class="bi bi-arrow-down-up ms-1"></i>
+            </div>
+            <div class="col-2">
+              <span @click="sortTitle" id="sortItems">TITLE</span> /
+              <span @click="sortArtist" id="sortItems">ARTIST NAME</span>
+              <i class="bi bi-arrow-down-up ms-1"></i>
+            </div>
+            <div class="col-4">
+              DESCRIPTION
+              <i
+                @click="sortDescription"
+                id="sortItems"
+                class="bi bi-arrow-down-up ms-1"
+              ></i>
+            </div>
+            <div class="col-1">
+              CATEGORY
+              <i
+                @click="sortCategory"
+                id="sortItems"
+                class="bi bi-arrow-down-up ms-1"
+              ></i>
+            </div>
+            <div class="col-1">
+              PRICE
+              <i
+                id="sortItems"
+                class="bi bi-arrow-down-up ms-1"
+                @click="sortPrice"
+              ></i>
+            </div>
             <div class="col-1"></div>
             <div class="col-1"></div>
           </div>
@@ -235,7 +276,16 @@ export default {
     filteredPieces() {
       return this.$store.state.pieces?.filter((piece) => {
         let isMatch = true;
-        if (!piece.artName?.toLowerCase().includes(this.search.toLowerCase())) {
+        if (
+          !piece.artName?.toLowerCase().includes(this.searchTitle.toLowerCase())
+        ) {
+          isMatch = false;
+        }
+        if (
+          !piece.description
+            ?.toLowerCase()
+            .includes(this.searchDescription.toLowerCase())
+        ) {
           isMatch = false;
         }
         if (
@@ -256,7 +306,8 @@ export default {
       imgURL: "",
       description: "",
       category: "",
-      search: "",
+      searchTitle: "",
+      searchDescription: "",
       categoryFilter: "All",
     };
   },
@@ -273,6 +324,24 @@ export default {
     },
     deletePiece(id) {
       this.$store.dispatch("deletePiece", id);
+    },
+    sortPrice() {
+      this.$store.commit("sortByPrice");
+    },
+    sortId() {
+      this.$store.commit("sortById");
+    },
+    sortTitle() {
+      this.$store.commit("sortByTitle");
+    },
+    sortArtist() {
+      this.$store.commit("sortByArtist");
+    },
+    sortCategory() {
+      this.$store.commit("sortByCategory");
+    },
+    sortDescription() {
+      this.$store.commit("sortByDescription");
     },
   },
 
@@ -459,11 +528,18 @@ h6 {
   border-radius: 10px 10px;
 }
 
+#sortItems {
+  cursor: pointer;
+}
+
+#sortItems:hover {
+  color: rgb(2, 106, 211);
+}
+
 #admin-tools {
   background: rgb(35, 37, 38);
-
   width: 100%;
-  min-height: 88.7vh;
+  min-height: 100vh;
   height: fit-content;
 }
 

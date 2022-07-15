@@ -15,6 +15,9 @@ export default {
 ::-webkit-scrollbar {
   display: none;
 }
+* {
+  user-select: none;
+}
 
 nav a {
   font-weight: bold;

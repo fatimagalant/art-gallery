@@ -20,6 +20,68 @@ export default createStore({
       console.log(user);
       state.user = user;
     },
+    sortByPrice: (state) => {
+      state.pieces = state.pieces.sort((a, b) => {
+        return a.price - b.price;
+      });
+      if (!state.asc) {
+        state.pieces.reverse();
+      }
+      state.asc = !state.asc;
+    },
+    sortById: (state) => {
+      state.pieces = state.pieces.sort((a, b) => {
+        return a.id - b.id;
+      });
+      if (!state.asc) {
+        state.pieces.reverse();
+      }
+      state.asc = !state.asc;
+    },
+    sortByTitle: (state) => {
+      state.pieces = state.pieces.sort((a, b) => {
+        return a.artName === b.artName ? 0 : a.artName < b.artName ? -1 : 1;
+      });
+      if (!state.asc) {
+        state.pieces.reverse();
+      }
+      state.asc = !state.asc;
+    },
+    sortByCategory: (state) => {
+      state.pieces = state.pieces.sort((a, b) => {
+        return a.category === b.category ? 0 : a.category < b.category ? -1 : 1;
+      });
+      if (!state.asc) {
+        state.pieces.reverse();
+      }
+      state.asc = !state.asc;
+    },
+    sortByDescription: (state) => {
+      state.pieces = state.pieces.sort((a, b) => {
+        return a.description === b.description
+          ? 0
+          : a.description < b.description
+          ? -1
+          : 1;
+      });
+      if (!state.asc) {
+        state.pieces.reverse();
+      }
+      state.asc = !state.asc;
+    },
+    sortByArtist: (state) => {
+      state.pieces = state.pieces.sort((a, b) => {
+        return a.artistName === b.artistName
+          ? 0
+          : a.artistName < b.artistName
+          ? -1
+          : 1;
+      });
+      if (!state.asc) {
+        state.pieces.reverse();
+      }
+      state.asc = !state.asc;
+    },
   },
   actions: {
     login: async (context, payload) => {
