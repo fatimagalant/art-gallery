@@ -1,15 +1,39 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HomeView from "../views/HomeView.vue";
 
 const routes = [
   {
     path: "/",
-    name: "home",
-    component: HomeView,
+    name: "Home",
+    component: () => import("../views/HomeView.vue"),
+  },
+  {
+    path: "/featured",
+    name: "Featured",
+    component: () => import("../views/Featured.vue"),
+  },
+  {
+    path: "/artists",
+    name: "Artists",
+    component: () => import("../views/Artists.vue"),
   },
   {
     path: "/gallery",
     name: "Gallery",
+    component: () => import("../views/GalleryView.vue"),
+  },
+  {
+    path: "/contact",
+    name: "Contact",
+    component: () => import("../views/Contact.vue"),
+  },
+  {
+    path: "/gallery",
+    name: "Gallery",
+    component: () => import("../views/GalleryView.vue"),
+  },
+  {
+    path: "/gallery/:cat",
+    name: "GalleryCategory",
     component: () => import("../views/GalleryView.vue"),
   },
   {

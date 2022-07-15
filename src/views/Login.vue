@@ -216,7 +216,8 @@ table {
   background: rgb(35, 37, 38);
   background-size: cover;
   width: 100%;
-  height: 88.6vh;
+  height: 100vh;
+  padding-top: 50px;
 }
 
 .parent {

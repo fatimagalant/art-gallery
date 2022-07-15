@@ -85,7 +85,7 @@
     },
     {
       "id": 12,
-      "fullName": "Akira Ikutu",
+      "fullName": "Akira Ikuta",
       "email": "akira@gmail.com",
       "password": "password",
       "role": "artist",
@@ -140,7 +140,7 @@
       "artistName": "Ashton Bailey",
       "artName": "Study of Hands",
       "price": 6615189847,
-      "imgURL": "https://i.postimg.cc/d1QDPwPT/Mega-Simp.jpg",
+      "imgURL": "https://i.postimg.cc/qvfRB8Hr/Study-of-Hands.jpg",
       "description": "Hands are a universal language that transcends time, handshakes, gestures, and greetings are all part of hand communication.",
       "category": "Drawing"
     },
@@ -149,7 +149,7 @@
       "artistName": "Ashton Bailey",
       "artName": "The girl at the station",
       "price": 3961594960,
-      "imgURL": "https://i.postimg.cc/qvfRB8Hr/Study-of-Hands.jpg",
+      "imgURL": "https://i.postimg.cc/QMhd1hMn/Yellowing-Surroundings.jpg",
       "description": "My inspiration for 'The girl at the station' was simply a real life moment at a train station that caught my attention and I paint what I saw",
       "category": "Painting"
     },
@@ -158,7 +158,7 @@
       "artistName": "Ashton Bailey",
       "artName": "Sunshine",
       "price": 853212711,
-      "imgURL": "https://i.postimg.cc/QMhd1hMn/Yellowing-Surroundings.jpg",
+      "imgURL": "https://i.postimg.cc/d1QDPwPT/Mega-Simp.jpg",
       "description": "I call this piece 'Sunshine' because, I made this piece in resemblance of someone who used to light up my life.",
       "category": "Drawing"
     },
@@ -213,7 +213,7 @@
       "artName": "Adaptation of David by Michael Angelo",
       "price": 7306085956,
       "imgURL": "https://i.postimg.cc/25KBpYZ6/adaptation-of-David-by-Michael-Angelo.jpg",
-      "description": "asdsa",
+      "description": "Adaptation of David sculpture By MIchael Angelo",
       "category": "Drawing"
     },
     {
@@ -222,7 +222,7 @@
       "artName": "Adaptation-of-The-Mona-Lisa-by-Leonardo-Da-Vinci",
       "price": 7047210989,
       "imgURL": "https://i.postimg.cc/x8rJCPgV/adaptation-of-The-Mona-Lisa-by-Leonardo-Da-Vinci.jpg",
-      "description": "asdsa",
+      "description": "Adaptation-of-The-Mona-Lisa-by-Leonardo-Da-Vinci",
       "category": "Drawing"
     },
     {
@@ -231,7 +231,7 @@
       "artName": "Mind and Heart",
       "price": 7411914810,
       "imgURL": "https://i.postimg.cc/CxCZKDnW/Mind-and-Heart.jpg",
-      "description": "asdsa",
+      "description": "Mind, Heart and Soul. The mind and heart have bee visualised but the soul is invisible. That doesn't mean that it is not there.",
       "category": "Drawing"
     },
     {
@@ -240,7 +240,7 @@
       "artName": "Siege of Troy",
       "price": 6032631436,
       "imgURL": "https://i.postimg.cc/y8nZPc60/Siege-of-Troy.jpg",
-      "description": "asdsa",
+      "description": "This dog is a representation of strength. ",
       "category": "Drawing"
     },
     {
@@ -249,7 +249,7 @@
       "artName": "Smoky Darkness",
       "price": 550316620,
       "imgURL": "https://i.postimg.cc/hGj73vh6/Smoky_Darkness.jpg",
-      "description": "asdsa",
+      "description": "There is a fine line between self-care and self-harm ",
       "category": "Drawing"
     },
     {
@@ -258,7 +258,7 @@
       "artName": "Beach of Harmony",
       "price": 6648193694,
       "imgURL": "https://i.postimg.cc/9QWCb7qQ/Beach_of_Harmony.jpg",
-      "description": "asdsa",
+      "description": "The purple accents represent change, like the waves washing away prints.",
       "category": "Painting"
     },
     {
@@ -267,7 +267,7 @@
       "artName": "Happiness",
       "price": 2179496516,
       "imgURL": "https://i.postimg.cc/TYjTn91s/Happiness.jpg",
-      "description": "asdsa",
+      "description": "Do what makes you happy.",
       "category": "Painting"
     },
     {
@@ -276,7 +276,7 @@
       "artName": "Inventions of Surprise",
       "price": 7802817852,
       "imgURL": "https://i.postimg.cc/0QJsjGhc/Inventions_of_Surprise.jpg",
-      "description": "asdsa",
+      "description": "The different sections represent the turbulence of chaos.",
       "category": "Painting"
     },
     {
@@ -285,7 +285,7 @@
       "artName": "Turbulent Shelter",
       "price": 6480877085,
       "imgURL": "https://i.postimg.cc/nLrZbf28/Turbulent_Shelter.jpg",
-      "description": "asdsa",
+      "description": "The is a a calm in turbulence",
       "category": "Painting"
     },
     {
@@ -294,7 +294,7 @@
       "artName": "You are Perfect",
       "price": 6929698411,
       "imgURL": "https://i.postimg.cc/6QPKBbb8/You_are_Perfect.jpg",
-      "description": "asdsa",
+      "description": "Even killers have a soft spot",
       "category": "Painting"
     },
     {
@@ -303,7 +303,7 @@
       "artName": "Belief",
       "price": 7057308116,
       "imgURL": "https://i.postimg.cc/rsZ8s1SN/Belief.jpg",
-      "description": "asdsa",
+      "description": "Sculpture of David",
       "category": "Sculpture"
     },
     {
@@ -311,27 +311,27 @@
       "artistName": "Akira Ikuta",
       "artName": "Creative Romance",
       "price": 942362656,
-      "imgURL": "https://i.postimg.cc/fW8W8N6S/Creative_Romance.jpg",
-      "description": "asdsa",
-      "category": "Abstact"
+      "imgURL": "https://i.postimg.cc/t7VHgLR9/Creative-Romance.jpg",
+      "description": "The colours represent the different classes of romance",
+      "category": "Abstract"
     },
     {
       "id": 23,
       "artistName": "Akira Ikuta",
-      "artName": "Depressions of Harmony",
+      "artName": "Delight of Infatuation",
       "price": 6375223800,
-      "imgURL": "https://i.postimg.cc/59K1wmCw/Brilliant_Direction.jpg",
-      "description": "asdsa",
+      "imgURL": "https://i.postimg.cc/25d rhRQ6/Delight_of_Infatuation.jpg",
+      "description": "Casting light upon all fragments of infatuation",
       "category": "Painting"
     },
     {
       "id": 24,
       "artistName": "Akira Ikuta",
-      "artName": "Delight of Infatuation",
+      "artName": "Depressions of Harmony",
       "price": 7947174328,
-      "imgURL": "https://i.postimg.cc/25drhRQ6/Delight_of_Infatuation.jpg",
-      "description": "asdsa",
-      "category": "Abstact"
+      "imgURL": "https://i.postimg.cc/59K1wmCw/Brilliant_Direction.jpg",
+      "description": "Creative sadness cast over like a sheen of sweat",
+      "category": "Abstract"
     },
     {
       "id": 25,
@@ -339,7 +339,7 @@
       "artName": "Lesson of Despair",
       "price": 2864341223,
       "imgURL": "https://i.postimg.cc/FsqrQxF9/Lesson_of_Despair.jpg",
-      "description": "asdsa",
+      "description": "A sea in a library of despair gives a gift to schools",
       "category": "Painting"
     },
     {
@@ -348,7 +348,7 @@
       "artName": "Abstract Division",
       "price": 3530412931,
       "imgURL": "https://i.postimg.cc/TwdP7Y0F/Abstract_Division.jpg",
-      "description": "asdsa",
+      "description": "Distracting Abstract",
       "category": "Painting"
     },
     {
@@ -357,7 +357,7 @@
       "artName": "Delights of Authority",
       "price": 2606609011,
       "imgURL": "https://i.postimg.cc/jdD4vP5Q/Delights_of_Authority.jpg",
-      "description": "asdsa",
+      "description": "Grounded Practice",
       "category": "Wildlife"
     },
     {
@@ -366,7 +366,7 @@
       "artName": "Freedom of Forever",
       "price": 2541690569,
       "imgURL": "https://i.postimg.cc/6Q0WvxK0/Freedom_of_Forever.jpg",
-      "description": "asdsa",
+      "description": "The sculpture took forever to sculpt, which symbolises reluctance. ",
       "category": "Sculpture"
     },
     {
@@ -375,7 +375,7 @@
       "artName": "Grounded Practice",
       "price": 3823686970,
       "imgURL": "https://i.postimg.cc/Gm3dnSGT/Grounded_Practice.jpg",
-      "description": "asdsa",
+      "description": "wings of exploration",
       "category": "Sculpture"
     },
     {
@@ -384,7 +384,7 @@
       "artName": "Stand Out",
       "price": 6082830209,
       "imgURL": "https://i.postimg.cc/J4Vzvqpj/Stand_Out.jpg",
-      "description": "asdsa",
+      "description": "there will be many people who have the same style, ideas as you. Stand out.",
       "category": "Painting"
     },
     {
@@ -393,7 +393,7 @@
       "artName": "Divine Option",
       "price": 2031879212,
       "imgURL": "https://i.postimg.cc/43sF6p24/Divine_Option.jpg",
-      "description": "asdsa",
+      "description": "Eyes of the streets,a painting to watch over those who cannot do so themseleves.",
       "category": "Painting"
     },
     {
@@ -402,7 +402,7 @@
       "artName": "Divisions of Surprise",
       "price": 1338387158,
       "imgURL": "https://i.postimg.cc/cHDj46mx/Divisions_of_Surprise.jpg",
-      "description": "asdsa",
+      "description": "Bringing life to buildings by adding a touch of nature.",
       "category": "Painting"
     },
     {
@@ -411,7 +411,7 @@
       "artName": "Delicate Sympathy",
       "price": 2359579119,
       "imgURL": "https://i.postimg.cc/zfCjKNfs/Delicate_Sympathy.jpg",
-      "description": "asdsa",
+      "description": "A sound through vision.",
       "category": "Painting"
     },
     {
@@ -420,7 +420,7 @@
       "artName": "Recognition of Celebration",
       "price": 8867697209,
       "imgURL": "https://i.postimg.cc/VkyhNxjC/Recognition_of_Celebration.jpg",
-      "description": "asdsa",
+      "description": "The walls have eyes.",
       "category": "Painting"
     },
     {
@@ -429,17 +429,18 @@
       "artName": "Submission-of-Significance",
       "price": 2977813118,
       "imgURL": "https://i.postimg.cc/KzRHsxPR/Submission_of_Significance.jpg",
-      "description": "asdsa",
+      "description": "Even the most beautiful flowers must eventually fall off.",
       "category": "Painting"
     },
+
     {
       "id": 36,
       "artistName": "Maeve Powell",
       "artName": "Life's Rust",
       "price": 5312798215,
       "imgURL": "https://i.postimg.cc/SstNzPjX/Life-s-Rust.jpg",
-      "description": "asdsa",
-      "category": "Abstact"
+      "description": "Nothing has an infinite lifetime,everything rusts.",
+      "category": "Abstract"
     },
     {
       "id": 37,
@@ -447,16 +448,16 @@
       "artName": "Bleeding Rainbow",
       "price": 5091270221,
       "imgURL": "https://i.postimg.cc/0j2D9FFb/Bleeding-Rainbow.jpg",
-      "description": "asdsa",
-      "category": "Abstact"
+      "description": "A mixture of diverse colors to create an illusion of a rainbow.",
+      "category": "Abstract"
     },
     {
       "id": 38,
       "artistName": "Maeve Powell",
       "artName": "Business of Surprise",
       "price": 8218223268,
-      "imgURL": "https://i.postimg.cc/9X8BGJWQ/Business_of_Surprise.jpg",
-      "description": "asdsa",
+      "imgURL": "https://i.postimg.cc/BvLh0LDd/Contemplating-Storm.jpg",
+      "description": "Never expect nothing less of the element of suprise.",
       "category": "Wildlife"
     },
     {
@@ -465,8 +466,8 @@
       "artName": "Contemplating Storm",
       "price": 4148809265,
       "imgURL": "https://i.postimg.cc/BvLh0LDd/Contemplating-Storm.jpg",
-      "description": "asdsa",
-      "category": "Abstact"
+      "description": "Contours of color bring to life a canvas.",
+      "category": "Abstract"
     },
     {
       "id": 40,
@@ -474,8 +475,8 @@
       "artName": "Cut of Colour",
       "price": 5640688965,
       "imgURL": "https://i.postimg.cc/fLWJdXKP/Cut-of-Colour.jpg",
-      "description": "asdsa",
-      "category": "Abstact"
+      "description": "These cuts can be felt on this painting,and so can the colors used within it.",
+      "category": "Abstract"
     },
     {
       "id": 41,
@@ -483,7 +484,7 @@
       "artName": "Contemplating Morning",
       "price": 3162628217,
       "imgURL": "https://i.postimg.cc/SNvGQ3Mp/Contemplating_Morning.jpg",
-      "description": "asdsa",
+      "description": "seen as a drop of mercury stopped in time.",
       "category": "Sculpture"
     },
     {
@@ -491,9 +492,9 @@
       "artistName": "Allistairr",
       "artName": "Dream of Psychology",
       "price": 8595721286,
-      "imgURL": "https://i.postimg.cc/sx05XG1J/Dream_of_Psychology.jpg",
-      "description": "asdsa",
-      "category": "Abstact"
+      "imgURL": "https://i.postimg.cc/JHZsYnNy/Dream-of-Psychology.jpg",
+      "description": "Seen through not only that of our physical eyes but that of the minds eye.",
+      "category": "Abstract"
     },
     {
       "id": 43,
@@ -501,7 +502,7 @@
       "artName": "Dynamic Fall",
       "price": 5420070656,
       "imgURL": "https://i.postimg.cc/JhwcZXx6/Dynamic_Fall.jpg",
-      "description": "asdsa",
+      "description": "A sculpture which represents a wing of steel.",
       "category": "Sculpture"
     },
     {
@@ -511,7 +512,7 @@
       "price": 3255999109,
       "imgURL": "https://i.postimg.cc/SNJWPdt1/Illustrious_Accident.jpg",
       "description": "asdsa",
-      "category": "Abstact"
+      "category": "Abstract"
     },
     {
       "id": 45,
@@ -519,7 +520,7 @@
       "artName": "Spring of Service",
       "price": 5357433455,
       "imgURL": "https://i.postimg.cc/VvbXJLMQ/Spring_of_Service.jpg",
-      "description": "asdsa",
+      "description": "A disturbance in something what was once peacefull,the smallest disruption can cause a ripple effect.",
       "category": "Sculpture"
     },
     {
@@ -528,8 +529,8 @@
       "artName": "Directions of Solitude",
       "price": 1524713424,
       "imgURL": "https://i.postimg.cc/yNTNTJcX/Directions_of_Solitude.jpg",
-      "description": "asdsa",
-      "category": "Abstact"
+      "description": "Gradients of vlue and purple to bring the emotion of the color itself.",
+      "category": "Abstract"
     },
     {
       "id": 47,
@@ -537,7 +538,7 @@
       "artName": "Don't Let Go",
       "price": 4521733442,
       "imgURL": "https://i.postimg.cc/tCh7gmJM/Don_t_Let_Go.jpg",
-      "description": "asdsa",
+      "description": "One is only protected by those hands which hold them close.",
       "category": "Sculpture"
     },
     {
@@ -546,8 +547,8 @@
       "artName": "Perpetual Drive",
       "price": 3775465480,
       "imgURL": "https://i.postimg.cc/0QW2LLtz/Perpetual_Drive.jpg",
-      "description": "asdsa",
-      "category": "Abstact"
+      "description": "Jellyfish which can shine through darkness",
+      "category": "Abstract"
     },
     {
       "id": 49,
@@ -555,7 +556,7 @@
       "artName": "Tender Courage",
       "price": 5154160529,
       "imgURL": "https://i.postimg.cc/t4N1BmHx/Tender_Courage.jpg",
-      "description": "asdsa",
+      "description": "Although it is a vicious predator ,it can too be a caring mother.",
       "category": "Wildlife"
     },
     {
@@ -564,7 +565,7 @@
       "artName": "Thrills of Childhood",
       "price": 877813123,
       "imgURL": "https://i.postimg.cc/SNwjQbm8/Thrills_of_Childhood.jpg",
-      "description": "asdsa",
+      "description": "Fragile, just as a child is both physically and emotionally.",
       "category": "Sculpture"
     }
   ]

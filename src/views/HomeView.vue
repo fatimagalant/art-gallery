@@ -40,30 +40,45 @@
             eiusmod tempor incididunt ut labore et dolore magna
           </p>
         </div>
-
-        <div class="panel" id="abstract">
-          <p>4 Items</p>
-          <h3>Abstract</h3>
-        </div>
-        <div class="panel" id="painting">
-          <p>11 Items</p>
-          <h3>Paintings</h3>
-        </div>
-        <div class="panel" id="sculpture">
-          <p>6 Items</p>
-          <h3>Sculptures</h3>
-        </div>
-        <div class="panel" id="wildlife">
-          <p>9 Items</p>
-          <h3>Wildlife</h3>
-        </div>
+        <router-link
+          :to="{ name: 'GalleryCategory', params: { cat: 'Abstract' } }"
+        >
+          <div class="panel" id="abstract">
+            <p>4 Items</p>
+            <h3>Abstract</h3>
+          </div>
+        </router-link>
+        <router-link
+          :to="{ name: 'GalleryCategory', params: { cat: 'Painting' } }"
+        >
+          <div class="panel" id="painting">
+            <p>11 Items</p>
+            <h3>Paintings</h3>
+          </div>
+        </router-link>
+        <router-link
+          :to="{ name: 'GalleryCategory', params: { cat: 'Sculpture' } }"
+        >
+          <div class="panel" id="sculpture">
+            <p>6 Items</p>
+            <h3>Sculptures</h3>
+          </div>
+        </router-link>
+        <router-link
+          :to="{ name: 'GalleryCategory', params: { cat: 'Wildlife' } }"
+        >
+          <div class="panel" id="wildlife">
+            <p>9 Items</p>
+            <h3>Wildlife</h3>
+          </div>
+        </router-link>
       </div>
     </div>
   </section>
-  <footer class="">
-    <img href="/home" src="../assets/home/logo.png" alt="logo" id="logo" />
+  <footer class="d-flex justify-content-around text-secondary">
+    <img href="/admin" src="../assets/home/logo.png" alt="logo" id="logo" />
     <a href="/contact">contact</a>
-    <a href="/about">about</a>
+    <a href="/artists">artists</a>
     <a href="/gallery">gallery</a>
     <a>© 2022 Les Chevres</a>
   </footer>
@@ -347,11 +362,20 @@ footer {
   width: auto;
   filter: brightness(20);
 }
+#logo:hover {
+  cursor: pointer;
+  color: white;
+}
 
 a {
   text-decoration: none;
   color: inherit;
 }
+
+a:hover {
+  color: white;
+}
+
 #goat {
   float: right;
   width: 600px;

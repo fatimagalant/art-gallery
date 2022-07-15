@@ -1,30 +1,5 @@
 <template>
   <section id="admin-tools">
-    <nav
-      class="navbar navbar-expand-lg navbar-light sticky-top p-3"
-      id="top-nav"
-    >
-      <div class="container-md">
-        <a class="navbar-brand fs-6" href="admin">Gallery</a>
-        <ul class="nav justify-content-end">
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link text-secondary"
-              href="#"
-              id="navbarDarkDropdownMenuLink"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              <div class="d-flex align-items-center">
-                <img id="profile-pic" src="../assets/admin/user.png" alt="" />
-                <span class="mx-1 username">Full Name</span>
-              </div>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
     <div class="d-flex justify-content-center pt-5">
       <div id="panel" class="pb-5 mb-5">
         <nav
@@ -527,11 +502,19 @@ h6 {
   padding: 0;
   border: none;
   border: 1px solid rgba(0, 0, 0, 0.162);
-  border-bottom-left-radius: 5px;
-  border-top-left-radius: 5px;
+  border-radius: 5px 5px;
   outline: none;
 }
-
+#categoryFilter {
+  width: 200px;
+  height: 40px;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.162);
+  border-radius: 5px 5px;
+  outline: none;
+}
 .search-input:active {
   outline: none;
 }

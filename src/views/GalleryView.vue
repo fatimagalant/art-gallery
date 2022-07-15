@@ -8,14 +8,12 @@
           <p class="lead text-muted" id="address"></p>
           <p id="category">{{ piece.artistName }}</p>
           <p id="description" class="py-4">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias
-            impedit fugiat aliquam natus asperiores sequi quis maiores quo quos
-            eius, quae tempora eaque illo porro?
+            {{ piece.description }}
           </p>
           <router-link
             id="art-link"
             :to="{ name: 'artworkDetails', params: { id: piece.id } }"
-            >More info <i class="fa-solid fa-arrow-right-long"></i
+            >More info <i class="bi bi-arrow-right"></i
           ></router-link>
         </div>
       </div>
@@ -32,6 +30,11 @@ export default {
   },
   computed: {
     pieces() {
+      if (this.$route.params.cat) {
+        return this.$store.state.pieces?.filter(
+          (piece) => piece.category === this.$route.params.cat
+        );
+      }
       return this.$store.state.pieces;
     },
   },

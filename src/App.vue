@@ -1,31 +1,33 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
-    <router-link to="/gallery">Gallery</router-link> |
-    <router-link to="/login">Login</router-link> |
-    <router-link to="/register">Register</router-link> |
-    <router-link to="/admin">Admin</router-link> |
-  </nav>
+  <Navbar />
   <router-view />
 </template>
+<script>
+import Navbar from "./components/Navbar.vue";
+export default {
+  components: {
+    Navbar,
+  },
+};
+</script>
 
 <style>
 ::-webkit-scrollbar {
   display: none;
 }
 
-nav {
-  padding: 30px;
-  background: rgb(35, 37, 38);
-}
-
 nav a {
   font-weight: bold;
   color: #ffffff;
 }
-
+nav a :hover {
+  color: #c3b299;
+}
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #c3b299;
+}
+nav {
+  background-color: rgb(0, 0, 0);
+  color: white;
 }
 </style>

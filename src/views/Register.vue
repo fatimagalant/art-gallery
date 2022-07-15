@@ -218,7 +218,8 @@ table {
 .background {
   background: rgb(35, 37, 38);
   width: 100%;
-  height: 88.6vh;
+  height:100vh;
+  padding-top:50px;
 }
 #register {
   background: rgb(35, 37, 38);
@@ -235,6 +236,7 @@ table {
   height: 620px;
   border-radius: 20px 20px;
   margin: 0 auto;
+  
 }
 #slogan {
   font-family: "Poppins", sans-serif;
