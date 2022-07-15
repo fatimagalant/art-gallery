@@ -13,9 +13,14 @@ const routes = [
     component: () => import("../views/AboutView.vue"),
   },
   {
-    path: "/pieces",
-    name: "Pieces",
-    component: () => import("../views/Marketplace.vue"),
+    path: "/gallery",
+    name: "Gallery",
+    component: () => import("../views/GalleryView.vue"),
+  },
+  {
+    path: "/artworkdetails",
+    name: "Artwork Details",
+    component: () => import("../views/ArtworkDetails.vue"),
   },
   {
     path: "/pieces/:id",

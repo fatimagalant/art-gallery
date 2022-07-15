@@ -609,6 +609,10 @@ input[type="search"]::placeholder {
   padding-bottom: 3px;
 }
 
+#modal-form {
+  padding: 20px;
+}
+
 .modal-dialog {
   margin: auto;
   padding: 10px;

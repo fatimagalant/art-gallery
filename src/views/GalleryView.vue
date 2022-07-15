@@ -40,9 +40,9 @@ export default {
 </script>
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-/* 
+/*
 font-family: 'Lora', serif;
-font-family: 'Poppins', sans-serif; 
+font-family: 'Poppins', sans-serif;
 */
 html,
 body,
@@ -168,10 +168,17 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+<<<<<<< HEAD:src/views/Marketplace.vue
 #market {
   background: rgb(35, 37, 38);
   height: fit-content;
   width: 100%;
+=======
+#market{
+        background: rgb(35, 37, 38);
+    height: max-content;
+    width: 100%;
+>>>>>>> 6fd97525016ec4f01a610c7879f3da8afaca2aaa:src/views/GalleryView.vue
 }
 #box-container {
   padding-left: 0;
@@ -179,6 +186,12 @@ table {
   flex-wrap: wrap;
   height: fit-content;
   /* flex-basis: 33.333333%; */
+<<<<<<< HEAD:src/views/Marketplace.vue
+=======
+  justify-content: center;
+  margin:0 auto;
+  align-items: center;
+>>>>>>> 6fd97525016ec4f01a610c7879f3da8afaca2aaa:src/views/GalleryView.vue
 }
 
 .box {
@@ -186,12 +199,21 @@ table {
   width: fit-content;
   background: transparent;
   flex-basis: 50%;
+<<<<<<< HEAD:src/views/Marketplace.vue
   border-radius: 4px 4px;
   transition: all 0.7s ease-in-out;
   display: flex;
   flex-direction: row;
   margin: 0 auto;
   padding-top: 30px;
+=======
+   border-radius: 4px 4px;
+   transition:all 0.7s ease-in-out;
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+   padding-top: 30px;
+>>>>>>> 6fd97525016ec4f01a610c7879f3da8afaca2aaa:src/views/GalleryView.vue
 }
 
 .box:hover {
@@ -199,12 +221,10 @@ table {
 }
 
 .art-image {
-  height: 300px;
+  height: auto;
   width: 400px;
   filter: brightness(100%);
   transition: all 1s ease-in-out;
-  border-radius: 5px 0px 0px 5px;
-  border: 1px solid white;
 }
 
 #title {
@@ -233,7 +253,7 @@ table {
   font-family: "Poppins", sans-serif;
   font-size: 13px;
   font-weight: 300;
-  width: 250px;
+  width: fit-content;
 }
 
 .icons {
@@ -249,10 +269,7 @@ table {
 
 #text {
   padding-left: 3%;
-  margin-left: 10px;
-  width: 400px;
-  border: 1px solid white;
-  border-radius: 0px 5px 5px 0px;
+  width: fit-content;
 }
 
 #art-link {
