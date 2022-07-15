@@ -78,13 +78,12 @@ export default createStore({
         .then((response) => response.json())
         .then(() => context.dispatch("getAllArt"));
     },
-    updatePieces: async (context, piece) => {
-      const { artistName, artName, price, imgURL, description, category } =
-        payload;
-      fetch("http://localhost:3000/pieces" + piece.id, {
+    updateProduct: async (context, piece) => {
+      const { id, artistName, artName, price, imgURL, description, category } =
+        piece;
+      fetch("http://localhost:3000/pieces/" + id, {
         method: "PUT",
         body: JSON.stringify({
-          id: id,
           artistName: artistName,
           artName: artName,
           price: price,

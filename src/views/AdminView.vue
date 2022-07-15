@@ -34,9 +34,9 @@
           <div class="container-fluid">
             <a class="navbar-brand text-white" href="#"
               >Artworks
-              <span class="badge rounded-pill bg-danger" id="badge-count"
-                >10</span
-              >
+              <span class="badge rounded-pill bg-danger" id="badge-count">{{
+                filteredPieces?.length
+              }}</span>
               <br />
               <p class="lead text-white" id="pnl-sub">
                 keep track of your sales/listings
@@ -66,7 +66,7 @@
                   <option value="All">All</option>
                   <option value="Abstract">Abstract</option>
                   <option value="Painting">Painting</option>
-                  <option value="Sculptures">Sculptures</option>
+                  <option value="Sculpture">Sculpture</option>
                   <option value="Drawing">Drawing</option>
                   <option value="Widlife">Widlife</option>
                 </select>
@@ -89,7 +89,7 @@
                   <i class="bi bi-plus"></i> Add
                 </button>
 
-                <!-- Modal -->
+                <!-- Add Modal -->
                 <div
                   class="modal fade"
                   id="exampleModal"
@@ -101,7 +101,7 @@
                     <div class="modal-content p-2">
                       <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalLabel">
-                          Create A New Ad
+                          Create A New Piece
                         </h5>
                         <button
                           type="button"
@@ -160,7 +160,7 @@
                             </option>
                             <option value="Abstract">Abstract</option>
                             <option value="Painting">Painting</option>
-                            <option value="Sculptures">Sculptures</option>
+                            <option value="Sculpture">Sculpture</option>
                             <option value="Drawing">Drawing</option>
                             <option value="Widlife">Widlife</option>
                           </select>
@@ -180,7 +180,106 @@
                             Cancel
                           </button>
                           <button type="submit" class="btn btn-primary">
-                            Create Listing
+                            Create Piece
+                          </button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Edit Modal -->
+                <div
+                  class="modal fade"
+                  id="exampleModal1"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content p-2">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                          Edit a piece
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <form
+                          @submit.prevent="updatePieces(piece.id)"
+                          id="modal-form"
+                          class="p-2"
+                        >
+                          <input
+                            type="text"
+                            id="title-add"
+                            placeholder="Artist Name"
+                            v-model="artistName"
+                          />
+                          <input
+                            type="text"
+                            id="address-add"
+                            placeholder="Art Name"
+                            v-model="artName"
+                          />
+                          <input
+                            type="url"
+                            placeholder="https://picsum.photos/300/400"
+                            id="imageURL-add"
+                            v-model="imgURL"
+                          />
+                          <div>
+                            <input
+                              type="number"
+                              id="price-add"
+                              placeholder="Price"
+                              v-model="price"
+                            />
+                          </div>
+
+                          <select
+                            v-model="category"
+                            class="form-select form-select-sm"
+                            aria-label=".form-select-sm example"
+                            id="category-select-add"
+                          >
+                            <option
+                              value=""
+                              disabled
+                              selected
+                              hidden
+                              class="text-muted"
+                            >
+                              Category
+                            </option>
+                            <option value="Abstract">Abstract</option>
+                            <option value="Painting">Painting</option>
+                            <option value="Sculpture">Sculpture</option>
+                            <option value="Drawing">Drawing</option>
+                            <option value="Widlife">Widlife</option>
+                          </select>
+                          <textarea
+                            name="description"
+                            id="description"
+                            cols="57"
+                            rows="10"
+                            placeholder="Description of your art"
+                            v-model="description"
+                          ></textarea>
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Cancel
+                          </button>
+                          <button type="submit" class="btn btn-primary">
+                            Edit Piece
                           </button>
                         </form>
                       </div>
@@ -232,8 +331,8 @@
               <span class="col-1">{{ piece.price }}</span>
               <span class="col-1"></span>
               <span class="col-1" id="CRUD-icons"
-                ><i title="Edit" class="bi bi-pencil-square" id="edit"></i
-                ><i
+                ><UpdateModal :piece="piece" />
+                <i
                   title="Delete"
                   class="bi bi-x-circle"
                   id="delete"
@@ -252,7 +351,9 @@
 </template>
 
 <script>
+import UpdateModal from "../components/UpdateModal.vue";
 export default {
+  components: { UpdateModal },
   computed: {
     filteredPieces() {
       return this.$store.state.pieces?.filter((piece) => {
@@ -550,7 +651,6 @@ input[type="search"]::placeholder {
 }
 
 #btn-add {
-  width: 120px;
   height: 40px;
   color: white;
   background: rgb(2, 106, 211);
@@ -594,11 +694,6 @@ input[type="search"]::placeholder {
   font-family: "Roboto", sans-serif;
 }
 
-#edit {
-  font-size: 20px;
-  font-weight: 900;
-  color: cornflowerblue;
-}
 #delete {
   font-size: 20px;
   font-weight: 900;
@@ -614,8 +709,8 @@ input[type="search"]::placeholder {
 }
 
 #imageURL {
-  width: 90px;
-  height: 50px;
+  width: 6rem;
+  height: 6rem;
   border-radius: 3px 3px;
   border: 1px solid #bac1be;
 }

@@ -2,7 +2,7 @@
   <section id="market">
     <div class="container" id="box-container" v-if="pieces">
       <div class="box" v-for="piece in pieces" :key="piece.id">
-        <img v-bind:src="piece.imgURL" alt="" />
+        <img class="art-image" v-bind:src="piece.imgURL" alt="" />
         <div id="text">
           <h3 class="pt-1 text-white" id="title">{{ piece.artName }}</h3>
           <p class="lead text-muted" id="address"></p>
