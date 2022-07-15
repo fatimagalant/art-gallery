@@ -1,25 +1,35 @@
 <template>
   <section id="item-view">
-  <div id="item-wrapper">
-    <div id="item-container">
+    <div id="item-wrapper">
+      <div id="item-container" v-if="piece">
         <div id="info-div">
-        <p class="text-white artist-name" >Vincent Van Gogh</p>
-        <p id="image-description" class="text-white
-        ">"I seek to create work which combines the physiological substance and emotional characteristics of place to form an expression of its terroir."</p>
-        <a href="" id="collection-link">see artist's collection</a>
+          <p class="text-white artist-name">{{ piece.artistName }}</p>
+          <p id="image-description" class="text-white">
+            " {{ piece.description }} "
+          </p>
+        </div>
+
+        <img id="artwork" v-bind:src="piece.imgURL" alt="" />
+      </div>
     </div>
-        
-        <img id="artwork" src="assets/sculpture-6.jpg" alt="">
-    </div>
-    </div></section>
+  </section>
 </template>
 <script>
 export default {
-    
-}
+  // name: "artworkDetails",
+  props: ["id"],
+  computed: {
+    piece() {
+      return this.$store.state.piece;
+    },
+  },
+  mounted() {
+    this.$store.dispatch("getSinglePiece", this.id);
+  },
+};
 </script>
 <style scoped>
-    @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 /* 
 font-family: 'Lora', serif;
 font-family: 'Poppins', sans-serif; 
@@ -148,18 +158,18 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-#item-view{
+#item-view {
   background: rgb(35, 37, 38);
   width: 100%;
   height: 100vh;
 }
-#item-wrapper{
-   padding-top: 50px;
+#item-wrapper {
+  padding-top: 50px;
   /* height: 500px;
   width: 100%;
   background: rgb(35, 37, 38);  */
 }
-#item-container{
+#item-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -169,36 +179,34 @@ table {
   background: rgb(39, 41, 42);
 }
 
-#artwork{
-width: 500px;
-height: auto;
-padding-left: 13px;
-border: 1px solid rgba(255, 255, 255, 0.068);
+#artwork {
+  width: 500px;
+  height: auto;
+  padding-left: 13px;
+  border: 1px solid rgba(255, 255, 255, 0.068);
 }
 
-#image-description{
-font-size: 45px;
-font-family: 'Lora', serif;
-margin-top: 52px;
-    min-height: 510px;
-    line-height: 155%;
+#image-description {
+  font-size: 45px;
+  font-family: "Lora", serif;
+  margin-top: 52px;
+  min-height: 510px;
+  line-height: 155%;
 }
 
-#info-div{
-    height: 650px;
-    width: 500px;
-    padding-right: 13px;
+#info-div {
+  height: 650px;
+  width: 500px;
+  padding-right: 13px;
 }
-.artist-name{
-  font-family: 'Poppins', sans-serif;
+.artist-name {
+  font-family: "Poppins", sans-serif;
 }
-#image-description{
 
-}
-#collection-link{
-font-family: 'Poppins', sans-serif;
-text-decoration: none;
-color: white;
-border-bottom: 1px solid white;
+#collection-link {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid white;
 }
 </style>

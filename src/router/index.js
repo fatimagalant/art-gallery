@@ -18,15 +18,12 @@ const routes = [
     component: () => import("../views/GalleryView.vue"),
   },
   {
-    path: "/artworkdetails",
-    name: "Artwork Details",
+    path: "/gallery/:id",
+    name: "artworkDetails",
     component: () => import("../views/ArtworkDetails.vue"),
+    props: true,
   },
-  {
-    path: "/pieces/:id",
-    name: "Piece",
-    component: () => import("../views/Piece.vue"),
-  },
+
   {
     path: "/login",
     name: "Login",

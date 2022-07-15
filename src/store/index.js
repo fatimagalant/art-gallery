@@ -13,6 +13,7 @@ export default createStore({
       state.pieces = pieces;
     },
     setPiece: (state, piece) => {
+      console.log(piece);
       state.piece = piece;
     },
     setUser: (state, user) => {
@@ -52,10 +53,10 @@ export default createStore({
         .then((res) => res.json())
         .then((pieces) => context.commit("setPieces", pieces));
     },
-    getSinglePiece: async (context) => {
-      fetch("http://localhost:3000/pieces" + id)
+    getSinglePiece: async (context, id) => {
+      fetch(" http://localhost:3000/pieces/" + id)
         .then((res) => res.json())
-        .then((pieces) => context.commit("setPieces", pieces));
+        .then((piece) => context.commit("setPiece", piece));
     },
     createPieces: async (context, payload) => {
       const { artistName, artName, price, imgURL, description, category } =

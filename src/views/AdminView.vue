@@ -55,20 +55,29 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
-              <form onsubmit="event.preventDefault();" class="d-flex">
-                <input
-                  class="search-input"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button
-                  onclick="event.preventDefault();"
-                  class="btn-search"
-                  type="button"
+              <form class="d-flex">
+                <p class="text-white">Search by category</p>
+                <select
+                  v-model="categoryFilter"
+                  name="categoryFilter"
+                  id="categoryFilter"
+                  value="All"
                 >
-                  <i class="bi bi-search"></i>
-                </button>
+                  <option value="All">All</option>
+                  <option value="Abstract">Abstract</option>
+                  <option value="Painting">Painting</option>
+                  <option value="Sculptures">Sculptures</option>
+                  <option value="Drawing">Drawing</option>
+                  <option value="Widlife">Widlife</option>
+                </select>
+                <input
+                  class="search-input ps-2"
+                  type="text"
+                  placeholder="Search by title"
+                  aria-label="Search"
+                  v-model="search"
+                />
+
                 <!-- Button trigger modal -->
                 <button
                   type="button"
@@ -77,7 +86,7 @@
                   data-bs-target="#exampleModal"
                   id="btn-add"
                 >
-                  <i class="bi bi-plus"></i> Add New
+                  <i class="bi bi-plus"></i> Add
                 </button>
 
                 <!-- Modal -->
@@ -195,8 +204,12 @@
             <div class="col-1"></div>
           </div>
         </div>
-        <ul class="container mx-1" id="property-container" v-if="pieces">
-          <li class="items" v-for="piece in pieces" :key="piece.id">
+        <ul
+          class="container mx-1"
+          id="property-container"
+          v-if="filteredPieces"
+        >
+          <li class="items" v-for="piece in filteredPieces" :key="piece.id">
             <div class="row item">
               <span class="col-1">{{ piece.id }}</span>
               <span class="col-1"
@@ -241,8 +254,20 @@
 <script>
 export default {
   computed: {
-    pieces() {
-      return this.$store.state.pieces;
+    filteredPieces() {
+      return this.$store.state.pieces?.filter((piece) => {
+        let isMatch = true;
+        if (!piece.artName?.toLowerCase().includes(this.search.toLowerCase())) {
+          isMatch = false;
+        }
+        if (
+          this.categoryFilter !== "All" &&
+          piece.category !== this.categoryFilter
+        ) {
+          isMatch = false;
+        }
+        return isMatch;
+      });
     },
   },
   data() {
@@ -253,6 +278,8 @@ export default {
       imgURL: "",
       description: "",
       category: "",
+      search: "",
+      categoryFilter: "All",
     };
   },
   methods: {

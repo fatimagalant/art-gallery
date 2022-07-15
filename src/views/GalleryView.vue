@@ -14,7 +14,7 @@
           </p>
           <router-link
             id="art-link"
-            :to="{ name: 'Piece', params: { id: piece.id } }"
+            :to="{ name: 'artworkDetails', params: { id: piece.id } }"
             >More info <i class="fa-solid fa-arrow-right-long"></i
           ></router-link>
         </div>
@@ -28,14 +28,13 @@
 <script>
 export default {
   mounted() {
-    return this.$store.dispatch("getAllArt");
+    this.$store.dispatch("getAllArt");
   },
   computed: {
     pieces() {
       return this.$store.state.pieces;
     },
   },
-  props: ["pieces"],
 };
 </script>
 <style scoped>
@@ -168,17 +167,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-<<<<<<< HEAD:src/views/Marketplace.vue
 #market {
   background: rgb(35, 37, 38);
-  height: fit-content;
+  height: max-content;
   width: 100%;
-=======
-#market{
-        background: rgb(35, 37, 38);
-    height: max-content;
-    width: 100%;
->>>>>>> 6fd97525016ec4f01a610c7879f3da8afaca2aaa:src/views/GalleryView.vue
 }
 #box-container {
   padding-left: 0;
@@ -186,12 +178,9 @@ table {
   flex-wrap: wrap;
   height: fit-content;
   /* flex-basis: 33.333333%; */
-<<<<<<< HEAD:src/views/Marketplace.vue
-=======
   justify-content: center;
-  margin:0 auto;
+  margin: 0 auto;
   align-items: center;
->>>>>>> 6fd97525016ec4f01a610c7879f3da8afaca2aaa:src/views/GalleryView.vue
 }
 
 .box {
@@ -199,21 +188,12 @@ table {
   width: fit-content;
   background: transparent;
   flex-basis: 50%;
-<<<<<<< HEAD:src/views/Marketplace.vue
   border-radius: 4px 4px;
   transition: all 0.7s ease-in-out;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 0 auto;
   padding-top: 30px;
-=======
-   border-radius: 4px 4px;
-   transition:all 0.7s ease-in-out;
-   display: flex;
-   flex-direction: column;
-   margin: 0 auto;
-   padding-top: 30px;
->>>>>>> 6fd97525016ec4f01a610c7879f3da8afaca2aaa:src/views/GalleryView.vue
 }
 
 .box:hover {
