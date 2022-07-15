@@ -15,6 +15,14 @@
     </section>
   </div>
 </template>
+<script>
+export default {
+  name: 'About',
+  props: {
+    msg: String
+  }
+}
+</script>
 
 <style scoped>
 html, body, div, span, applet, object, iframe,
@@ -62,15 +70,16 @@ table {
 }
 
 #blog{
-    background-color: #222222;
+    background-color: rgb(35, 37, 38);
     height: 100vh;
     width: 100%;
 }
 #blog-heading{
     font-family: 'Playfair Display', serif;
     font-weight: 900;
+    font-style: italic;
     color: white;
-    font-size: 150px;
+    font-size: 10rem;
     filter: opacity(0.1);
     margin-left: 3%;
     position: absolute;
