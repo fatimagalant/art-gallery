@@ -55,13 +55,14 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
-              <form class="d-flex">
+              <form class="d-flex align-items-center">
                 <p class="text-white">Search by category</p>
                 <select
                   v-model="categoryFilter"
                   name="categoryFilter"
                   id="categoryFilter"
                   value="All"
+                  class="mx-1 rounded h-100"
                 >
                   <option value="All">All</option>
                   <option value="Abstract">Abstract</option>
@@ -71,7 +72,7 @@
                   <option value="Widlife">Widlife</option>
                 </select>
                 <input
-                  class="search-input ps-2"
+                  class="search-input ps-2 rounded"
                   type="text"
                   placeholder="Search by title"
                   aria-label="Search"
@@ -181,105 +182,6 @@
                           </button>
                           <button type="submit" class="btn btn-primary">
                             Create Piece
-                          </button>
-                        </form>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Edit Modal -->
-                <div
-                  class="modal fade"
-                  id="exampleModal1"
-                  tabindex="-1"
-                  aria-labelledby="exampleModalLabel"
-                  aria-hidden="true"
-                >
-                  <div class="modal-dialog">
-                    <div class="modal-content p-2">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">
-                          Edit a piece
-                        </h5>
-                        <button
-                          type="button"
-                          class="btn-close"
-                          data-bs-dismiss="modal"
-                          aria-label="Close"
-                        ></button>
-                      </div>
-                      <div class="modal-body">
-                        <form
-                          @submit.prevent="updatePieces(piece.id)"
-                          id="modal-form"
-                          class="p-2"
-                        >
-                          <input
-                            type="text"
-                            id="title-add"
-                            placeholder="Artist Name"
-                            v-model="artistName"
-                          />
-                          <input
-                            type="text"
-                            id="address-add"
-                            placeholder="Art Name"
-                            v-model="artName"
-                          />
-                          <input
-                            type="url"
-                            placeholder="https://picsum.photos/300/400"
-                            id="imageURL-add"
-                            v-model="imgURL"
-                          />
-                          <div>
-                            <input
-                              type="number"
-                              id="price-add"
-                              placeholder="Price"
-                              v-model="price"
-                            />
-                          </div>
-
-                          <select
-                            v-model="category"
-                            class="form-select form-select-sm"
-                            aria-label=".form-select-sm example"
-                            id="category-select-add"
-                          >
-                            <option
-                              value=""
-                              disabled
-                              selected
-                              hidden
-                              class="text-muted"
-                            >
-                              Category
-                            </option>
-                            <option value="Abstract">Abstract</option>
-                            <option value="Painting">Painting</option>
-                            <option value="Sculpture">Sculpture</option>
-                            <option value="Drawing">Drawing</option>
-                            <option value="Widlife">Widlife</option>
-                          </select>
-                          <textarea
-                            name="description"
-                            id="description"
-                            cols="57"
-                            rows="10"
-                            placeholder="Description of your art"
-                            v-model="description"
-                          ></textarea>
-                          <button
-                            type="button"
-                            class="btn btn-secondary"
-                            data-bs-dismiss="modal"
-                          >
-                            Cancel
-                          </button>
-                          <button type="submit" class="btn btn-primary">
-                            Edit Piece
                           </button>
                         </form>
                       </div>
@@ -755,7 +657,9 @@ input[type="search"]::placeholder {
 #title-add:focus {
   border: 3px solid #555;
 }
-
+#categoryFilter {
+  height: 2rem;
+}
 #address-add {
   width: 100%;
   padding: 0px 20px;
