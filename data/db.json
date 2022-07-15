@@ -118,20 +118,20 @@
   ],
   "pieces": [
     {
-      "id": 1,
       "artistName": "Ashton Bailey",
       "artName": "Globe of Thought",
       "price": 5608484400,
-      "imgURL": "https://i.postimg.cc/gJWJzJCj/Globe-of-Thought.jpg",
+      "imgURL": "https://i.postimg.cc/VvpNCtSj/Globe-of-Thought.jpg",
       "description": "This is a small world in a big universe and we are it's inhabitants",
-      "category": "Drawing"
+      "category": "Drawing",
+      "id": 1
     },
     {
       "id": 2,
       "artistName": "Ashton Bailey",
       "artName": "I heart EREN JAEGER",
       "price": 7169848760,
-      "imgURL": "https://i.postimg.cc/F7mNyVhJ/Levi.jpg",
+      "imgURL": "https://i.postimg.cc/sDGxRT8K/Levi.jpg",
       "description": "A man whose height is not much, but his heroics make him a force to be reckoned with. This is Levi Ackerman, he is particularly good at saving Eren Jaeger.",
       "category": "Drawing"
     },
@@ -168,7 +168,7 @@
       "artName": "We are the Universe",
       "price": 1579489445,
       "imgURL": "https://i.postimg.cc/87d21j9Q/we-are-the-universe.jpg",
-      "description": "asdsa",
+      "description": "Females are the universe , without females , there is no universe",
       "category": "Painting"
     },
     {
@@ -177,7 +177,7 @@
       "artName": "Ghost in the Shell",
       "price": 2848343489,
       "imgURL": "https://i.postimg.cc/xNJrYgDt/Ghost-in-the-Shell.jpg",
-      "description": "asdsa",
+      "description": "Sometimes you feel left out , but you are actually seen the most",
       "category": "Painting"
     },
     {
@@ -186,7 +186,7 @@
       "artName": "David's rose",
       "price": 914006596,
       "imgURL": "https://i.postimg.cc/GHD05Mjp/David-s-Rose.jpg",
-      "description": "asdsa",
+      "description": "Be a rose",
       "category": "Drawing"
     },
     {
@@ -195,7 +195,7 @@
       "artName": "Expresive Eyes",
       "price": 4731171405,
       "imgURL": "https://i.postimg.cc/XXmSxMdh/Expressive-Eyes.jpg",
-      "description": "asdsa",
+      "description": "Envision yourself as the most high , and then show up as her",
       "category": "Painting"
     },
     {
@@ -204,7 +204,7 @@
       "artName": "Widowless Glare",
       "price": 4022755451,
       "imgURL": "https://i.postimg.cc/XXp6wNGd/windowless-glare.jpg",
-      "description": "asdsa",
+      "description": "In attempt of practice I drew this because I was bored",
       "category": "Drawing"
     },
     {

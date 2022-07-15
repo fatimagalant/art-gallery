@@ -4,7 +4,7 @@ const routes = [
   {
     path: "/",
     name: "Home",
-    component: () => import("../views/Home.vue"),
+    component: () => import("../views/HomeView.vue"),
   },
   {
     path: "/featured",
@@ -19,7 +19,7 @@ const routes = [
   {
     path: "/gallery",
     name: "Gallery",
-    component: () => import("../views/Gallery.vue"),
+    component: () => import("../views/GalleryView.vue"),
   },
   {
     path: "/contact",
@@ -27,26 +27,17 @@ const routes = [
     component: () => import("../views/Contact.vue"),
   },
   {
-    path: "/about",
-    name: "About",
-    component: () => import("../views/About.vue"),
+    path: "/gallery",
+    name: "Gallery",
+    component: () => import("../views/GalleryView.vue"),
   },
   {
-    path: "/ViewArt/:id",
-    name: "ViewArt",
+    path: "/gallery/:id",
+    name: "artworkDetails",
     component: () => import("../views/ArtworkDetails.vue"),
     props: true,
   },
-  {
-    path: "/about",
-    name: "about",
-    component: () => import("../views/About.vue"),
-  },
-  {
-    path: "/pieces",
-    name: "Pieces",
-    component: () => import("../views/Marketplace.vue"),
-  },
+
   {
     path: "/login",
     name: "Login",
@@ -56,6 +47,11 @@ const routes = [
     path: "/register",
     name: "Register",
     component: () => import("../views/Register.vue"),
+  },
+  {
+    path: "/admin",
+    name: "Admin",
+    component: () => import("../views/AdminView.vue"),
   },
 ];
 

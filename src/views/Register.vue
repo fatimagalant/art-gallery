@@ -5,7 +5,10 @@
       class="d-flex justify-content-center align-items-center col"
     >
       <div id="left-page">
-        <h1 id="register-heading">
+        <h1 v-if="user" id="register-heading">
+          New user created and logged in<span class="text-primary">.</span>
+        </h1>
+        <h1 v-else id="register-heading">
           Create a new account<span class="text-primary">.</span>
         </h1>
         <p id="register-subheading">
@@ -27,8 +30,9 @@
               v-model="role"
             >
               <option value="" disabled selected>User Type</option>
-              <option value="client" name="client">Client</option>
-              <option value="artist" name="artist">Artist</option>
+              <option value="" name="client">Client</option>
+              <option value="" name="artist">Artist</option>
+              <option value="" name="admin">Admin</option>
             </select>
           </div>
           <div class="email-pass">
@@ -49,6 +53,7 @@
           </div>
           <button class="my-4" id="btn-register" type="submit">Register</button>
         </form>
+        <div v-if="user" id="welcome">Welcome {{ user.fullName }}</div>
       </div>
     </section>
   </div>
@@ -63,6 +68,8 @@ export default {
   },
   data() {
     return {
+      fullName: "",
+      role: "",
       email: "",
       password: "",
     };
@@ -70,6 +77,8 @@ export default {
   methods: {
     register() {
       this.$store.dispatch("register", {
+        fullName: this.fullName,
+        role: this.role,
         email: this.email,
         password: this.password,
       });
@@ -201,6 +210,7 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -208,7 +218,8 @@ table {
 .background {
   background: rgb(35, 37, 38);
   width: 100%;
-  height: 88.6vh;
+  height:100vh;
+  padding-top:50px;
 }
 #register {
   background: rgb(35, 37, 38);
@@ -225,6 +236,7 @@ table {
   height: 620px;
   border-radius: 20px 20px;
   margin: 0 auto;
+  
 }
 #slogan {
   font-family: "Poppins", sans-serif;

@@ -5,6 +5,7 @@ export default createStore({
     pieces: null,
     piece: null,
     user: null,
+    asc: true,
   },
   getters: {},
   mutations: {
@@ -12,9 +13,11 @@ export default createStore({
       state.pieces = pieces;
     },
     setPiece: (state, piece) => {
+      console.log(piece);
       state.piece = piece;
     },
     setUser: (state, user) => {
+      console.log(user);
       state.user = user;
     },
   },
@@ -50,15 +53,24 @@ export default createStore({
         .then((res) => res.json())
         .then((pieces) => context.commit("setPieces", pieces));
     },
-    getSinglePiece: async (context) => {
-      fetch("http://localhost:3000/pieces" + id)
+    getSinglePiece: async (context, id) => {
+      fetch(" http://localhost:3000/pieces/" + id)
         .then((res) => res.json())
-        .then((pieces) => context.commit("setPieces", pieces));
+        .then((piece) => context.commit("setPiece", piece));
     },
-    createPieces: async (context, piece) => {
+    createPieces: async (context, payload) => {
+      const { artistName, artName, price, imgURL, description, category } =
+        payload;
       fetch("http://localhost:3000/pieces", {
         method: "POST",
-        body: JSON.stringify(piece),
+        body: JSON.stringify({
+          artistName: artistName,
+          artName: artName,
+          price: price,
+          imgURL: imgURL,
+          description: description,
+          category: category,
+        }),
         headers: {
           "Content-type": "application/json; charset=UTF-8",
         },
@@ -66,10 +78,19 @@ export default createStore({
         .then((response) => response.json())
         .then(() => context.dispatch("getAllArt"));
     },
-    updatePieces: async (context, piece) => {
-      fetch("http://localhost:3000/pieces" + piece.id, {
+    updateProduct: async (context, piece) => {
+      const { id, artistName, artName, price, imgURL, description, category } =
+        piece;
+      fetch("http://localhost:3000/pieces/" + id, {
         method: "PUT",
-        body: JSON.stringify(piece),
+        body: JSON.stringify({
+          artistName: artistName,
+          artName: artName,
+          price: price,
+          imgURL: imgURL,
+          description: description,
+          category: category,
+        }),
         headers: {
           "Content-type": "application/json; charset=UTF-8",
         },
@@ -78,7 +99,7 @@ export default createStore({
         .then(() => context.dispatch("getAllArt"));
     },
     deletePiece: async (context, id) => {
-      fetch("http://localhost:3000/pieces" + id, {
+      fetch("http://localhost:3000/pieces/" + id, {
         method: "DELETE",
       }).then(() => context.dispatch("getAllArt"));
     },

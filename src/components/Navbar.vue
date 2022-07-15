@@ -1,16 +1,13 @@
 <template>
   <button id="menu-btn" type="button" @click="toggleNav()">menu</button>
   <nav class="nav-links">
-    <router-link class="items" @click="toggleNav()" to="/home">
+    <router-link class="items" @click="toggleNav()" to="/admin">
       <img
         id="goat-img"
         v-bind:src="'https://i.postimg.cc/J4xCfTgD/tinywow-remove-bg-3337581.png'"
     /></router-link>
 
     <router-link class="items" @click="toggleNav()" to="/">Home</router-link>
-    <router-link class="items" @click="toggleNav()" to="/about"
-      >About</router-link
-    >
     <router-link class="items" @click="toggleNav()" to="/featured"
       >Featured</router-link
     >
@@ -54,7 +51,7 @@ export default {
 </script>
 <style scoped>
 #close-btn {
-  margin-left: 110rem;
+  margin-left: 94rem;
   margin-top: 3rem;
   font-size: 2rem;
   position: absolute;
