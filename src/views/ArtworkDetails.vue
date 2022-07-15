@@ -8,8 +8,12 @@
             " {{ piece.description }} "
           </p>
         </div>
-
-        <img id="artwork" v-bind:src="piece.imgURL" alt="" />
+        <div class="d-flex flex-column align-items-start artist-name">
+          <img id="artwork" v-bind:src="piece.imgURL" alt="" />
+          <p class="my-1 mt-3 text-white">{{ piece.artName }}</p>
+          <p class="my-1 text-white">R {{ piece.price }}</p>
+          <p class="my-1 text-white">{{ piece.category }}</p>
+        </div>
       </div>
     </div>
   </section>
