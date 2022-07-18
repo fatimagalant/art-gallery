@@ -21,7 +21,12 @@
             class="feedback-input form-control"
             placeholder="COMMENT"
           ></textarea>
-          <button class="btn" type="submit" value="SUBMIT">Submit</button>
+
+          <div class="submit-btn">
+            <button class="btn text-center" type="submit" value="SUBMIT">
+              Submit
+            </button>
+          </div>
         </form>
       </div>
       <div class="col-6">
@@ -112,21 +117,29 @@
 <style scoped>
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url("https://fonts.googleapis.com/css2?family=Finlandica&family=Lato&family=Oswald:wght@300&display=swap");
+ul.contact-list {
+  display: flex;
+  justify-content: center;
+}
+.submit-btn {
+  display: flex;
+  justify-content: center;
+}
 
 .form-control {
   width: 100%;
 }
-@media screen and (max-width:838px) {
+@media screen and (max-width: 838px) {
   .form-control {
-  width: 100%;
+    width: 100%;
   }
-  
 }
+
 #contact {
-  padding-top:4rem;
+  padding-top: 4rem;
   background: rgb(27, 27, 27);
   min-height: 100vh;
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 .heading {
   color: white;
@@ -147,9 +160,9 @@ form {
 .col-4 {
   flex: 50%;
 }
-@media screen and (max-width:536px){
-  .col-6{
-   width:100%
+@media screen and (max-width: 536px) {
+  .col-6 {
+    width: 100%;
   }
 }
 @media screen and (max-width: 1060px) {
@@ -339,7 +352,7 @@ iframe {
   }
 }
 @media screen and (max-width: 838px) {
-  form{
+  form {
     width: 100%;
     padding-left: 50px;
   }

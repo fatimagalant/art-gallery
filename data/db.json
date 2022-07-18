@@ -114,6 +114,13 @@
       "password": "password",
       "role": "artist",
       "img": "https://i.postimg.cc/yk62XYHM/Edith-Brown.jpg"
+    },
+    {
+      "fullName": "rick",
+      "email": "ricardoronanm@gmail.com",
+      "password": "bruh",
+      "role": "",
+      "id": 16
     }
   ],
   "pieces": [
